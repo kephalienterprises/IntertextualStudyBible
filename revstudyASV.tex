@@ -56,38 +56,6 @@
     \let\insertchapterspace\keptinsertchapterspace}%
 }
 
-%chapter images for chapters with multiple images
-\NewDocumentCommand{\chapterfigureB}{O{} m m o}{%
-  \insertchapterspace
-  \cleartoevenpage{\thispagestyle{empty}}
-  \stepcounter{chapter}
-  \begin{figure*}[p]
-  	\centering
-  	\includegraphics[#1]{#2}
-  	\caption{#3}
-  	\label{#4}
-  \end{figure*}
-}
-
-%extra full page chapter image
-\NewDocumentCommand{\chapterfigureC}{O{} m m o}{%
-  \begin{figure*}[p]
-  	\centering
-  	\includegraphics[#1]{#2}
-  	\caption{#3}
-  	\label{#4}
-  \end{figure*}
-  \addtocounter{chapter}{-1}
-  \let\keptmemendofchapterhook\memendofchapterhook
-  \renewcommand{\memendofchapterhook}{%
-    \stepcounter{figure}%
-    \keptmemendofchapterhook
-    \let\memendofchapterhook\keptmemendofchapterhook}%
-  \let\keptinsertchapterspace\insertchapterspace
-  \renewcommand\insertchapterspace{%
-    \let\insertchapterspace\keptinsertchapterspace}%
-}
-
 %eliminate widows and orphans
 %\widowpenalty=10000
 %\clubpenalty=10000
@@ -295,7 +263,7 @@ Athens, AL 35613
 \pagestyle{headings}
 \mainmatter
 \trimFrame
-\chapter{Vision of the Son of Man}
+\chapter{One Like a Son of Man}
 \lettrine[lines=4]{\textcolor{red}{T}}{\ he Revelation of Jesus Christ}, which God gave him to show unto his servants,%
 	\cbiblefootduo{Daniel}{2:28}{there is a God in heaven that revealeth secrets, and he hath made known to the king Nebuchadnezzar what shall be in the latter days}%
 			{Amos}{3:7}{Surely the Lord Jehovah will do nothing, except he reveal his secret unto his servants the prophets}%
@@ -530,7 +498,7 @@ These things saith the Amen, the faithful and true witness,%
 
 \chapterfigure[scale=0.25]{Durer/Dürer_-_Saint_John_before_God_and_the_Elders.jpg}{St. John before God and the Elders. Dürer, 1498.}
 
-\chapter{Vision of God's Throne}
+\chapter{The Enthroned One}
 \lettrine[lines=3,slope=0.5em]{\textcolor{red}{A}}{\ fter these things I saw}, and behold, a door opened in heaven, and the first voice that I heard, a voice as of a trumpet speaking with me, one saying, Come up hither, and I will show thee the things which must come to pass hereafter.%
 	\footnote{cf. 1:1} %
 \vnum{2} Straightway I was in the Spirit: and behold, there was a throne set in heaven, and one sitting upon the throne;%
@@ -576,7 +544,7 @@ Holy, holy, holy, is the Lord God, the Almighty, who was and who is and who is t
 	\cbiblefoot{IChronicles}{29:11-13}{Thine, O Jehovah, is the greatness, and the power, and the glory, and the victory, and the majesty: for all that is in the heavens and in the earth is thine; thine is the kingdom, O Jehovah, and thou art exalted as head above all. Both riches and honor come of thee, and thou rulest over all; and in thy hand is power and might; and in thy hand it is to make great, and to give strength unto all. Now therefore, our God, we thank thee, and praise thy glorious name.}
 
 
-\chapter{Worthy is the Lamb}
+\chapter{The Scroll and the Lamb}
 \lettrine[lines=3,slope=0.5em]{\textcolor{red}{A}}{\ nd I saw} in the right hand of him that sat on the throne a book written within and on the back, close sealed with seven seals.%
  \cbiblefoottrio{Ezekiel}{2:9-10}{A scroll of a book was therein; and he spread it before me: and it was written within and without; and there were written therein lamentations, and mourning, and woe}%
  					{Isaiah}{29:11-12}{All vision is become unto you as the words of a book that is sealed, which men deliver to one that is learned, saying, Read this, I pray thee; and he saith, I cannot, for it is sealed: and the book is delivered to him that is not learned, saying, Read this, I pray thee; and he saith, I am not learned}%
@@ -626,7 +594,7 @@ Unto him that sitteth on the throne, and unto the Lamb, be the blessing, and the
 
 \vnum{14} And the four living creatures said, Amen. And the elders fell down and worshipped.
 
-\chapterfigureB[scale=0.2]{Durer/Durer_Revelation_Four_Riders.jpg}{The Four Horsemen. Albrecht Dürer, 1498.}
+\chapterfigure[scale=0.2]{Durer/Durer_Revelation_Four_Riders.jpg}{The Four Horsemen. Albrecht Dürer, 1498.}
 
 \chapter{The First Six Seals}
 \subsubsection*{The First Seal}
@@ -689,7 +657,11 @@ Unto him that sitteth on the throne, and unto the Lamb, be the blessing, and the
 		\cbibleref{Malachi}{3:2}{Who can abide the day of his coming? and who shall stand when he appeareth? for he is like a refiner’s fire, and like fullers’ soap\ldots}%
 	}
 
-\chapterfigureC[scale=0.3]{Durer/Durer_Sixth_Seal.jpg}{The Opening of the Fifth and Sixth Seals. Albrecht Dürer, 1498.}
+  \begin{figure*}[p]
+  	\centering
+  	\includegraphics[scale=0.3]{Durer/Durer_Sixth_Seal.jpg}
+  	\caption{The Opening of the Fifth and Sixth Seals. Albrecht Dürer, 1498.}
+  \end{figure*}
 
 \chapterfigure[scale=0.2]{Durer/Durer_4_Angels_Winds.jpg}{The Four Angels Holding the Winds. Albrecht Dürer, 1498.}
 
