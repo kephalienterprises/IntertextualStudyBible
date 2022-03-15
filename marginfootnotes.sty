@@ -1,0 +1,266 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{marginfootnotes}[2012/04/03 EXPERIMENTAL package for
+putting footnotes into the margin, overflowing into the footer]
+
+\RequirePackage{kvoptions}
+
+\RequirePackage{etoolbox}
+
+% We need this package to do some output / insert recovery magic. 
+
+\RequirePackage{afterpage}
+
+% Number of columns in footer.
+
+\DeclareStringOption[2]{columns}
+
+% Should we reorder footnotes on odd pages?
+
+\DeclareBoolOption[true]{fixorder}
+
+\ProcessKeyvalOptions*
+
+% Need a fresh insert for the marginfootnotes.
+
+\newinsert\marginfootnotes@ofn
+\skip\marginfootnotes@ofn=\z@
+\count\marginfootnotes@ofn=\z@
+\dimen\marginfootnotes@ofn=\textheight
+
+% Measure how much material already is in the margin.
+
+\newdimen\marginht@ofn
+
+% We rebuild page geometry such that there are <columns>+1 columns
+% (including marginpar) of width \marginparwidth, separated by
+% \marginparsep, and \textwidth covers <columns>-1 of them. 
+
+\@tempdima\marginparwidth
+\marginparwidth
+\dimexpr
+  (\textwidth+\marginparwidth+2\marginparsep)%
+  /\numexpr\marginfootnotes@columns+\@ne\relax%
+  -\marginparsep
+\relax
+\textwidth\dimexpr\marginfootnotes@columns\marginparwidth+\numexpr\marginfootnotes@columns-\@ne\relax\marginparsep\relax
+
+\advance\evensidemargin\dimexpr\marginparwidth-\@tempdima\relax
+
+% As there are <columns> columns of footnotes now, we need to adjust
+% the magnification factor.
+
+\count\footins=\numexpr1000/\marginfootnotes@columns\relax
+
+% Redefinition of \@footnotetext. Measure whether footnote still fits
+% in the margin, otherwise insert as footnote.
+
+\long\def\@footnotetext#1%
+{%
+  \setbox\@tempboxa=\vbox{\typesetfootnote@ofn{#1}}%
+  \ifdim\dimexpr\marginht@ofn+\ht\@tempboxa+\dp\@tempboxa\relax>\textheight
+    \insert\footins{\typesetfootnote@ofn{#1}}%
+   \else
+    \insert\marginfootnotes@ofn{\typesetfootnote@ofn{#1}}%
+    \global\advance\marginht@ofn\dimexpr\ht\@tempboxa+\dp\@tempboxa\relax
+  \fi
+}%
+
+\newcommand\typesetfootnote@ofn[1]
+{%
+  \reset@font\footnotesize
+  \interlinepenalty\interfootnotelinepenalty
+  \splittopskip\footnotesep
+  \splitmaxdepth \dp\strutbox \floatingpenalty \@MM
+  \hsize\marginparwidth \@parboxrestore
+  \protected@edef\@currentlabel{%
+    \csname p@footnote\endcsname\@thefnmark
+  }%
+  \color@begingroup
+  \@makefntext{%
+    \rule\z@\footnotesep\ignorespaces#1\@finalstrut\strutbox}%
+  \color@endgroup
+}
+
+% We hook into the output routine, replacing the "simple" output of
+% \footins by our more complicated scheme.
+
+\patchcmd\@makecol
+{%
+   \ifvoid\footins
+     \setbox\@outputbox \box\@cclv
+   \else
+     \setbox\@outputbox \vbox {%
+       \boxmaxdepth \@maxdepth
+       \unvbox \@cclv
+       \vskip \skip\footins
+       \color@begingroup
+         \normalcolor
+         \footnoterule
+         \unvbox \footins
+       \color@endgroup
+       }%
+   \fi
+}{\output@footins}{}{}
+
+% If \footins is void, we still need to output the margin
+% box. Otherwise we call the macro for balancing footnote columns.
+
+\newcommand\output@footins
+{%
+   \ifvoid\footins
+     \setbox\@outputbox \vbox {%
+       \boxmaxdepth \@maxdepth
+       \unvbox \@cclv
+       \hbox
+       {%
+         \if@twoside
+           \ifodd\c@page
+             \hskip\textwidth\hskip\marginparsep
+            \else 
+             \hskip-\marginparwidth\hskip-\marginparsep
+           \fi
+          \else
+           \hskip\textwidth\hskip\marginparsep
+         \fi
+         \smash{\box\marginfootnotes@ofn}%
+       }%
+     }%
+   \else
+     \setbox\@outputbox \vbox {%
+       \boxmaxdepth \@maxdepth
+       \unvbox \@cclv
+       \vskip \skip\footins
+       \color@begingroup
+         \normalcolor
+         \footnoterule
+         \balancecolumns@ofn
+       \color@endgroup
+       }%
+   \fi
+   \global\marginht@ofn\z@
+}
+
+% The following is roughly based on the example from appendix D of the
+% TeXbook, plus outputting the margin column.
+
+\newcount\k
+\newcount\lines@ofn
+\newbox\footnotetextbox@ofn
+\def\balancecolumns@ofn
+{%
+  \setbox\footnotetextbox@ofn=\box\footins
+  \k=\marginfootnotes@columns
+  \hbox to\dimexpr\k\marginparwidth+\marginparwidth+\k\marginparsep\relax
+  {%
+    \footnotesize
+    \lines@ofn
+    \numexpr
+      \dimexpr\ht\footnotetextbox@ofn+\dp\footnotetextbox@ofn\relax
+      /\baselineskip
+      /\marginfootnotes@columns
+    \relax
+    \splittopskip\dimexpr\baselineskip-\dp\strutbox\relax
+    \vbadness\maxdimen
+    \vfuzz\maxdimen
+    \splitmaxdepth \dp\strutbox
+    \if@twoside
+      \ifodd\c@page
+        \ifmarginfootnotes@fixorder
+          \setbox\footnotetextbox@ofn=\vbox{\unvbox\marginfootnotes@ofn\unvbox\footnotetextbox@ofn}%
+        \fi
+       \else
+        \hskip-\marginparwidth\hskip-\marginparsep
+        \setbox\@tempboxa=\box\marginfootnotes@ofn
+        \output@tempboxa
+        \hskip\marginparsep
+      \fi
+     \else
+      \ifmarginfootnotes@fixorder
+        \setbox\footnotetextbox@ofn=\vbox{\unvbox\marginfootnotes@ofn\unvbox\footnotetextbox@ofn}%
+      \fi
+    \fi
+    \dosplits
+    \if@twoside
+      \ifodd\c@page
+        \ifmarginfootnotes@fixorder
+          \setbox\@tempboxa=\box\footnotetextbox@ofn
+         \else
+          \setbox\@tempboxa=\box\marginfootnotes@ofn
+        \fi
+        \output@tempboxa
+      \fi
+     \else
+      \ifmarginfootnotes@fixorder
+        \setbox\@tempboxa=\box\footnotetextbox@ofn
+       \else
+        \setbox\@tempboxa=\box\marginfootnotes@ofn
+      \fi
+      \output@tempboxa
+    \fi
+  }%
+}
+
+\newcommand\output@tempboxa
+{%
+  \@tempcnta
+  \numexpr
+    \dimexpr\ht\@tempboxa+\dp\@tempboxa\relax
+    /\baselineskip
+  \relax
+  \smash{\vsplit\@tempboxa to \@tempcnta\baselineskip}%
+}
+
+\def\dosplits{\ifnum\k>\@ne \splitoff\hskip\marginparsep
+\global\advance\k-1\dosplits\fi}
+\def\splitoff
+{%
+  \vsplit\footnotetextbox@ofn to \lines@ofn\baselineskip
+}
+
+% Thanks to David Carlisle for pointing me to this easy solution how
+% to recover \footins material which was split off by a page break
+% and move it into the margin. afterpage code is used and patched
+% to avoid conflicts.
+
+\newtoks\output@ofn
+
+\output@ofn{%
+  \the\AP@output
+  \ifnum\outputpenalty>-\@Mi
+    \aftergroup\fixfootins@ofn
+  \fi
+}%
+
+\global\output{\the\output@ofn}%
+
+\newcommand\fixfootins@ofn
+{%
+  \AP@savetop
+  \addboxcontents\AP@partial
+  \ifvoid\AP@footins\else
+    \movefootins@ofn
+  \fi
+  \AP@noindent
+}
+
+\newcommand\movefootins@ofn
+{%
+  \global\advance\marginht@ofn\dimexpr\ht\AP@footins+\dp\AP@footins\relax
+  \insert\marginfootnotes@ofn{\unvbox\AP@footins}%
+}
+
+\patchcmd\AP@@
+{\insert\footins{\unvbox\AP@footins}}
+{\movefootins@ofn}{}{}    
+
+\patchcmd\AP@@
+{\AP@noindent}
+{\AP@noindent\global\output{\the\output@ofn}}{}{}
+
+% Disable \marginpar because it would conflict with margin footnotes.
+
+\renewcommand\marginpar[2][]
+{%
+  \PackageError{marginfootnotes}
+  {\string\marginpar\space disabled}\@eha
+}%
