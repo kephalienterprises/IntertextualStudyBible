@@ -5,6 +5,8 @@
 		\textrm{6}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {22}\BRvrsep \BRversestyle {24}\dotfill 
 		\textrm{6}
+    \subitem \BRchapterstyle {19}\BRchvsep \BRversestyle {28}\dotfill 
+		\textrm{33}
     \subitem \BRchapterstyle {49}\BRchvsep \BRversestyle {9}\dotfill 
 		\textrm{15}
   \item \BRbooktitlestyle {\BRbookof Exodus}
@@ -14,6 +16,8 @@
 		\textrm{30}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {23}\BRvrsep \BRversestyle {25}\dotfill 
 		\textrm{30}
+    \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {12}\BRvrsep \BRversestyle {15}\dotfill 
+		\textrm{33}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{31}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {6}\BRvrsep \BRversestyle {7}\dotfill 
@@ -126,7 +130,7 @@
     \subitem \BRchapterstyle {6}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {3}\dotfill 
 		\textrm{14}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {14}\dotfill 
-		\textrm{41}
+		\textrm{43}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {1}\BRvsep \BRversestyle {10}\dotfill 
 		\textrm{15}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {2}\dotfill 
@@ -346,6 +350,10 @@
     \subitem \BRchapterstyle {12}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {9}\dotfill 
 		\textrm{11}
   \item \BRbooktitlestyle {\BRbookof Joel}
+    \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {4}\dotfill 
+		\textrm{33}
+    \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {2}\BRvsep \BRversestyle {10}\dotfill 
+		\textrm{33}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {11}\dotfill 
 		\textrm{22}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {4}\dotfill 
