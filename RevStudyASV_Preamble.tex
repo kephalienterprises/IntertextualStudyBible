@@ -34,15 +34,16 @@
 \renewcommand{\insertchapterspace}{}
 
 %images on facing page of chapter start
-\NewDocumentCommand{\chapterfigure}{O{} m m o}{%
+\NewDocumentCommand{\chapterfigure}{O{} m o m}{%
   \insertchapterspace
   \cleartoevenpage{\thispagestyle{empty}}
   \stepcounter{chapter}
   \begin{figure*}[p]
   	\centering
   	\includegraphics[#1]{#2}
-  	\caption{#3}
-  	\label{#4}
+	\IfNoValueTF{#3}{%
+		\caption{#4}}{%
+		\caption[#3]{#4}}  	
   \end{figure*}
   \addtocounter{chapter}{-1}
   \let\keptmemendofchapterhook\memendofchapterhook
