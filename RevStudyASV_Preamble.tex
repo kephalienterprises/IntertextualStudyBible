@@ -1,0 +1,201 @@
+\usepackage{ebgaramond}
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, xcolor}
+\usepackage[english]{babel}
+\usepackage{lettrine}
+\usepackage{graphicx}
+\usepackage{afterpage}
+\usepackage{bibleref}
+\usepackage{indextools}
+\usepackage{ifthen}
+\usepackage{changepage}
+\usepackage{marginnote}
+\usepackage{comment}
+%\usepackage{ftnright} % this package pushes all the footnotes to the right hand column but with as many footnotes as I have it isn't working well
+
+\renewcommand*{\marginfont}{\color{red}}
+
+\strictpagecheck
+
+%background image
+\usepackage{eso-pic, transparent}
+\newcommand{\bgimage}[2]{\AddToShipoutPictureBG*{%
+  \AtPageLowerLeft{%
+    \transparent{#1}\includegraphics[width=\paperwidth,height=\paperheight]{#2}%
+  }%
+}}
+
+%for chapter headings
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}} 
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+%remove chapter spacing in LoF and LoT
+\renewcommand{\insertchapterspace}{}
+
+%images on facing page of chapter start
+\NewDocumentCommand{\chapterfigure}{O{} m m o}{%
+  \insertchapterspace
+  \cleartoevenpage{\thispagestyle{empty}}
+  \stepcounter{chapter}
+  \begin{figure*}[p]
+  	\centering
+  	\includegraphics[#1]{#2}
+  	\caption{#3}
+  	\label{#4}
+  \end{figure*}
+  \addtocounter{chapter}{-1}
+  \let\keptmemendofchapterhook\memendofchapterhook
+  \renewcommand{\memendofchapterhook}{%
+    \stepcounter{figure}%
+    \keptmemendofchapterhook
+    \let\memendofchapterhook\keptmemendofchapterhook}%
+}
+
+%eliminate widows and orphans
+%\widowpenalty=10000
+%\clubpenalty=10000
+
+% bible references
+\newcommand{\cbibleref}[3]{\textbf{\ibibleverse{#1}(#2)}\ {#3}}
+\newcommand{\cbiblechvs}[3]{\textbf{\ibiblechvs{#1}(#2)}\ {#3}}
+\newcommand{\cbiblevs}[3]{\textbf{\ibiblevs{#1}(#2)}\ {#3}}
+
+\newcommand{\cbiblefoot}[3]{\footnote{\cbibleref{#1}{#2}{#3}}}
+\newcommand{\cbiblefootduo}[6]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbibleref{#4}{#5}{#6}}}
+\newcommand{\cbiblefoottrio}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbibleref{#4}{#5}{#6}\ldots \cbibleref{#7}{#8}{#9}}}
+
+\newcommand{\cbiblefootduosb}[5]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblechvs{#1}{#4}{#5}}} %footnote with two texts from same book
+\newcommand{\cbiblefoottriosb}[7]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblechvs{#1}{#4}{#5}\ldots \cbiblechvs{#1}{#6}{#7}}}
+\newcommand{\cbiblefootcuartosb}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblechvs{#1}{#4}{#5}\ldots \cbiblechvs{#1}{#6}{#7}\ldots \cbiblechvs{#1}{#8}{#9}}}
+
+%title	
+\providecommand{\HUGE}{\Huge}
+\newlength{\drop}
+\newcommand*{\titleGM}{\begingroup% Gentle Madness
+\drop = 0.1\textheight
+\vspace{\baselineskip}
+\vfill
+	\hbox{%
+	\hspace*{0.2\textwidth}%
+	\rule{1pt}{\textheight}
+	\hspace*{0.05\textwidth}%
+	\parbox[b]{0.75\textwidth}{
+	\vbox{%
+		\vspace{\drop}
+		{\noindent\HUGE\bfseries\textcolor{red}{The Revelation}\\[0.5\baselineskip]\textcolor{red}{of Jesus Christ}}\\\\
+		{\Large\itshape Reading in Light of the Old Testament}\\[4\baselineskip]		
+		{\noindent Arranged by Caleb George}\par
+		\vspace{0.4\textheight}
+		{\textbf{Kephali Press}}\\[\baselineskip]
+		}% end of vbox
+		}% end of parbox
+	}% end of hbox
+\vfill
+\endgroup}
+
+%copyright
+
+\makeatletter
+\g@addto@macro{\maketitle}{\secondpage}
+\makeatother
+
+%dedication
+\providecommand{\HUGE}{\Huge}
+\newcommand*{\dedication}{\begingroup% Gentle Madness
+\drop = 0.1\textheight
+\vspace{\baselineskip}
+\vfill
+	\hbox{%
+	\hspace*{0.2\textwidth}%
+	\rule{0pt}{\textheight}
+	\hspace*{0.05\textwidth}%
+	\parbox[b]{0.75\textwidth}{
+	\vbox{%
+		\vspace{2\drop}	
+		\begin{flushright}	
+		{\Large\itshape For My Beloved Mabeliz}\\[1\baselineskip]		
+		%{\noindent\itshape With all my love}\par
+		\end{flushright}
+		\vspace{0.4\textheight}
+		}% end of vbox
+		}% end of parbox
+	}% end of hbox
+\vfill
+\endgroup}
+
+%verse numbers
+\newcommand{\vnum}[1]{\textcolor{red}{\normalsize{#1}}}
+
+%empty page
+\newcommand{\blankpage}{\newpage
+\thispagestyle{plain} % empty
+\mbox{}}
+
+% lettrine
+\newcount\zzc
+\makeatletter
+\def\zz{%
+\ifnum\prevgraf<\c@L@lines
+\zzc\z@
+\loop
+\ifnum\zzc<\prevgraf
+\advance\zzc\@ne
+\afterassignment\zzda\count@\L@parshape\relax
+\repeat
+\parshape\L@parshape
+\fi}
+\def\zzda{\afterassignment\zzdb\dimen@}
+\def\zzdb{\afterassignment\zzdef\dimen@}
+\def\zzdef#1\relax{\edef\L@parshape{\the\numexpr\count@-1\relax\space #1}}
+\makeatother
+\usepackage{lettrine}
+
+%index
+\biblerefmap{Genesis}{01}
+\biblerefmap{Exodus}{02}
+\biblerefmap{Leviticus}{03}
+\biblerefmap{Numbers}{04}
+\biblerefmap{Deuteronomy}{05}
+\biblerefmap{Joshua}{06}
+\biblerefmap{Judges}{07}
+\biblerefmap{Ruth}{08}
+\biblerefmap{ISamuel}{09}
+\biblerefmap{IISamuel}{10}
+\biblerefmap{IKings}{11}
+\biblerefmap{IIKings}{12}
+\biblerefmap{IChronicles}{13}
+\biblerefmap{IIChronicles}{14}
+\biblerefmap{Ezra}{15}
+\biblerefmap{Nehemiah}{16}
+\biblerefmap{Esther}{17}
+\biblerefmap{Job}{18}
+\biblerefmap{Psalms}{19}
+\biblerefmap{Proverbs}{20}
+\biblerefmap{Ecclesiastes}{21}
+\biblerefmap{SongofSongs}{22}
+\biblerefmap{Isaiah}{23}
+\biblerefmap{Jeremiah}{24}
+\biblerefmap{Lamentations}{25}
+\biblerefmap{Ezekiel}{26}
+\biblerefmap{Daniel}{27}
+\biblerefmap{Hosea}{28}
+\biblerefmap{Joel}{29}
+\biblerefmap{Amos}{30}
+\biblerefmap{Obadiah}{31}
+\biblerefmap{Jonah}{32}
+\biblerefmap{Micah}{33}
+\biblerefmap{Nahum}{34}
+\biblerefmap{Habakkuk}{35}
+\biblerefmap{Zephaniah}{36}
+\biblerefmap{Haggai}{37}
+\biblerefmap{Zechariah}{38}
+\biblerefmap{Malachi}{39}
+
+\setbooktitle{Psalms}{Psalm}
+\setindexbooktitle{Psalms}{Psalms}
+\setbooktitle{SongofSongs}{Song of Solomon}
+
+\makeindex[title=Scripture Index,name=scr,options=-s index_style.ist]
+\makeindex[title=General Index, name=gen]
+\renewcommand{\biblerefindex}{\index[scr]}
