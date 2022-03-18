@@ -10,8 +10,12 @@
   \item \BRbooktitlestyle {\BRbookof Exodus}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {14}\dotfill 
 		\textrm{1}
+    \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {20}\BRvrsep \BRversestyle {21}\dotfill 
+		\textrm{30}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {23}\BRvrsep \BRversestyle {25}\dotfill 
-		\textrm{29}
+		\textrm{30}
+    \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {21}\dotfill 
+		\textrm{31}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {6}\BRvrsep \BRversestyle {7}\dotfill 
 		\textrm{26}
     \subitem \BRchapterstyle {16}\BRchvsep \BRversestyle {32}\BRvrsep \BRversestyle {34}\dotfill 
@@ -131,16 +135,22 @@
 		\textrm{4}
     \subitem \BRchapterstyle {13}\BRchvsep \BRversestyle {9}\BRvrsep \BRversestyle {11}\BRvsep \BRversestyle {13}\dotfill 
 		\textrm{21}
+    \subitem \BRchapterstyle {14}\BRchvsep \BRversestyle {12}\BRvrsep \BRversestyle {15}\dotfill 
+		\textrm{30}
     \subitem \BRchapterstyle {19}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{2}
     \subitem \BRchapterstyle {22}\BRchvsep \BRversestyle {20}\BRvrsep \BRversestyle {23}\dotfill 
 		\textrm{10}
+    \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {17}\dotfill 
+		\textrm{31}
     \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{21}
     \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {23}\dotfill 
 		\textrm{13}
     \subitem \BRchapterstyle {25}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {9}\dotfill 
 		\textrm{27}
+    \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {21}\dotfill 
+		\textrm{31}
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{29}
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {11}\BRvrsep \BRversestyle {12}\dotfill 
@@ -200,6 +210,8 @@
   \item \BRbooktitlestyle {\BRbookof Jeremiah}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {5}\dotfill 
 		\textrm{5}
+    \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {13}\BRvrsep \BRversestyle {15}\dotfill 
+		\textrm{30}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {19}\dotfill 
 		\textrm{15}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {20}\dotfill 
@@ -210,10 +222,14 @@
 		\textrm{20}
     \subitem \BRchapterstyle {21}\BRchvsep \BRversestyle {5}\dotfill 
 		\textrm{7}
+    \subitem \BRchapterstyle {23}\BRchvsep \BRversestyle {15}\dotfill 
+		\textrm{30}
     \subitem \BRchapterstyle {30}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{3}
     \subitem \BRchapterstyle {49}\BRchvsep \BRversestyle {36}\dotfill 
 		\textrm{25}
+    \subitem \BRchapterstyle {51}\BRchvsep \BRversestyle {25}\BRvrsep \BRversestyle {26}\dotfill 
+		\textrm{30}
   \item \BRbooktitlestyle {\BRbookof Ezekiel}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{ix}, \textrm{2}
@@ -237,6 +253,8 @@
 		\textrm{4}, \textrm{13}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {9}\BRvrsep \BRversestyle {10}\dotfill 
 		\textrm{15}
+    \subitem \BRchapterstyle {5}\BRchvsep \BRversestyle {12}\dotfill 
+		\textrm{30}
     \subitem \BRchapterstyle {5}\BRchvsep \BRversestyle {12}\BRvsep \BRversestyle {17}\dotfill 
 		\textrm{20}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {4}\dotfill 
@@ -277,6 +295,8 @@
 		\textrm{27}
     \subitem \BRchapterstyle {38}\BRchvsep \BRversestyle {19}\BRvrsep \BRversestyle {20}\dotfill 
 		\textrm{21}
+    \subitem \BRchapterstyle {38}\BRchvsep \BRversestyle {22}\BRvrsep \BRversestyle {23}\dotfill 
+		\textrm{30}
     \subitem \BRchapterstyle {48}\BRchvsep \BRversestyle {35}\dotfill 
 		\textrm{10}
   \item \BRbooktitlestyle {\BRbookof Daniel}
@@ -321,6 +341,8 @@
     \subitem \BRchapterstyle {12}\BRchvsep \BRversestyle {7}\dotfill 
 		\textrm{14}
   \item \BRbooktitlestyle {\BRbookof Hosea}
+    \subitem \BRchapterstyle {4}\BRchvsep \BRversestyle {1}\dotfill 
+		\textrm{31}
     \subitem \BRchapterstyle {12}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {9}\dotfill 
 		\textrm{11}
   \item \BRbooktitlestyle {\BRbookof Joel}
@@ -333,6 +355,8 @@
   \item \BRbooktitlestyle {\BRbookof Amos}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {7}\dotfill 
 		\textrm{1}
+    \subitem \BRchapterstyle {8}\BRchvsep \BRversestyle {9}\dotfill 
+		\textrm{31}
   \item \BRbooktitlestyle {\BRbookof Nahum}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {3}\dotfill 
 		\textrm{2}
@@ -376,11 +400,5 @@
 		\textrm{9}
     \subitem \BRchapterstyle {4}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{4}
-
-  \indexspace
-
-  \item \BRbooktitlestyle {\BRbookof Revelation}
-    \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {12}\dotfill 
-		\textrm{ix}
 
 \end{theindex}
