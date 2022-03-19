@@ -32,8 +32,12 @@
 		\textrm{27}
     \subitem \BRchapterstyle {19}\BRchvsep \BRversestyle {16}\BRvrsep \BRversestyle {17}\dotfill 
 		\textrm{13}
+    \subitem \BRchapterstyle {20}\BRchvsep \BRversestyle {13}\BRvrsep \BRversestyle {15}\dotfill 
+		\textrm{37}
     \subitem \BRchapterstyle {25}\BRchvsep \BRversestyle {31}\BRvrsep \BRversestyle {40}\dotfill 
 		\textrm{3}
+    \subitem \BRchapterstyle {30}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {6}\dotfill 
+		\textrm{36}
     \subitem \BRchapterstyle {30}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {8}\dotfill 
 		\textrm{31}
     \subitem \BRchapterstyle {32}\BRchvsep \BRversestyle {32}\BRvrsep \BRversestyle {33}\dotfill 
@@ -48,6 +52,8 @@
 		\textrm{1}
     \subitem \BRchapterstyle {23}\BRchvsep \BRversestyle {5}\dotfill 
 		\textrm{1}
+    \subitem \BRchapterstyle {32}\BRchvsep \BRversestyle {16}\BRvrsep \BRversestyle {17}\dotfill 
+		\textrm{37}
   \item \BRbooktitlestyle {\BRbooknumberstyle {1}\BRbookof Kings}
     \subitem \BRchapterstyle {16}\BRchvsep \BRversestyle {31}\dotfill 
 		\textrm{7}
@@ -55,7 +61,7 @@
 		\textrm{13}
   \item \BRbooktitlestyle {\BRbooknumberstyle {2}\BRbookof Kings}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {22}\dotfill 
-		\textrm{7}
+		\textrm{7}, \textrm{37}
   \item \BRbooktitlestyle {\BRbooknumberstyle {1}\BRbookof Chronicles}
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {11}\BRvrsep \BRversestyle {13}\dotfill 
 		\textrm{14}
@@ -63,6 +69,8 @@
     \subitem \BRchapterstyle {18}\BRchvsep \BRversestyle {18}\dotfill 
 		\textrm{13}
   \item \BRbooktitlestyle {\BRbookof Job}
+    \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {20}\BRvrsep \BRversestyle {22}\dotfill 
+		\textrm{36}
     \subitem \BRchapterstyle {12}\BRchvsep \BRversestyle {14}\dotfill 
 		\textrm{10}
   \item \BRbooktitlestyle {Psalms}
@@ -70,6 +78,8 @@
 		\textrm{8}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {4}\dotfill 
 		\textrm{13}
+    \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {6}\dotfill 
+		\textrm{37}
     \subitem \BRchapterstyle {18}\BRchvsep \BRversestyle {9}\BRvrsep \BRversestyle {12}\dotfill 
 		\textrm{2}
     \subitem \BRchapterstyle {23}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {3}\dotfill 
@@ -104,6 +114,12 @@
 		\textrm{6}
     \subitem \BRchapterstyle {103}\BRchvsep \BRversestyle {19}\dotfill 
 		\textrm{13}
+    \subitem \BRchapterstyle {106}\BRchvsep \BRversestyle {36}\BRvrsep \BRversestyle {38}\dotfill 
+		\textrm{37}
+    \subitem \BRchapterstyle {115}\BRchvsep \BRversestyle {4}\BRvrsep \BRversestyle {8}\dotfill 
+		\textrm{37}
+    \subitem \BRchapterstyle {135}\BRchvsep \BRversestyle {15}\BRvrsep \BRversestyle {17}\dotfill 
+		\textrm{37}
     \subitem \BRchapterstyle {139}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{6}
     \subitem \BRchapterstyle {141}\BRchvsep \BRversestyle {2}\dotfill 
@@ -121,10 +137,14 @@
     \subitem \BRchapterstyle {5}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{11}
   \item \BRbooktitlestyle {\BRbookof Isaiah}
+    \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {8}\dotfill 
+		\textrm{37}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {9}\BRvrsep \BRversestyle {12}\dotfill 
 		\textrm{21}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {19}\BRvrsep \BRversestyle {21}\dotfill 
 		\textrm{22}
+    \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {20}\dotfill 
+		\textrm{37}
     \subitem \BRchapterstyle {6}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{13}
     \subitem \BRchapterstyle {6}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {3}\dotfill 
@@ -141,6 +161,8 @@
 		\textrm{21}
     \subitem \BRchapterstyle {14}\BRchvsep \BRversestyle {12}\BRvrsep \BRversestyle {15}\dotfill 
 		\textrm{32}
+    \subitem \BRchapterstyle {17}\BRchvsep \BRversestyle {7}\BRvrsep \BRversestyle {8}\dotfill 
+		\textrm{37}
     \subitem \BRchapterstyle {19}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{2}
     \subitem \BRchapterstyle {22}\BRchvsep \BRversestyle {20}\BRvrsep \BRversestyle {23}\dotfill 
@@ -214,6 +236,8 @@
   \item \BRbooktitlestyle {\BRbookof Jeremiah}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {5}\dotfill 
 		\textrm{5}
+    \subitem \BRchapterstyle {8}\BRchvsep \BRversestyle {3}\dotfill 
+		\textrm{36}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {13}\BRvrsep \BRversestyle {15}\dotfill 
 		\textrm{32}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {19}\dotfill 
@@ -265,6 +289,8 @@
 		\textrm{25}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {3}\BRvrsep \BRversestyle {11}\dotfill 
 		\textrm{25}
+    \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {4}\BRvrsep \BRversestyle {6}\dotfill 
+		\textrm{35}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{13}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {2}\dotfill 
@@ -310,6 +336,8 @@
 		\textrm{1}
     \subitem \BRchapterstyle {4}\BRchvsep \BRversestyle {5}\dotfill 
 		\textrm{ix}
+    \subitem \BRchapterstyle {5}\BRchvsep \BRversestyle {4}\BRvsep \BRversestyle {23}\dotfill 
+		\textrm{37}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{25}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {9}\dotfill 
@@ -352,8 +380,12 @@
   \item \BRbooktitlestyle {\BRbookof Joel}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {4}\dotfill 
 		\textrm{35}
+    \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {6}\BRvrsep \BRversestyle {7}\dotfill 
+		\textrm{36}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {2}\BRvsep \BRversestyle {10}\dotfill 
 		\textrm{35}
+    \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {4}\BRvrsep \BRversestyle {11}\dotfill 
+		\textrm{36}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {11}\dotfill 
 		\textrm{22}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {4}\dotfill 
@@ -365,11 +397,16 @@
 		\textrm{1}
     \subitem \BRchapterstyle {8}\BRchvsep \BRversestyle {9}\dotfill 
 		\textrm{33}
+  \item \BRbooktitlestyle {\BRbookof Micah}
+    \subitem \BRchapterstyle {5}\BRchvsep \BRversestyle {13}\dotfill 
+		\textrm{37}
   \item \BRbooktitlestyle {\BRbookof Nahum}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {3}\dotfill 
 		\textrm{2}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{22}
+    \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {4}\BRvrsep \BRversestyle {5}\dotfill 
+		\textrm{37}
   \item \BRbooktitlestyle {\BRbookof Habakkuk}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{3}
