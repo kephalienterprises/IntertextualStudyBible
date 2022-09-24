@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [MiKTeX 20.10].
 Scanning style file ./index_style.ist......done (6 attributes redefined, 0 ignored).
-Scanning input file scr.idx....done (270 entries accepted, 0 rejected).
-Sorting entries.....done (2246 comparisons).
-Generating output file scr.ind....done (540 lines written, 0 warnings).
+Scanning input file scr.idx....done (281 entries accepted, 0 rejected).
+Sorting entries.....done (2594 comparisons).
+Generating output file scr.ind....done (558 lines written, 0 warnings).
 Output written in scr.ind.
 Transcript written in scr.ilg.
