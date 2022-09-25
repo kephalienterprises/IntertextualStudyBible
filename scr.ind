@@ -138,9 +138,9 @@
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {3}\BRvrsep \BRversestyle {9}\dotfill 
 		\textrm{39}
     \subitem \BRchapterstyle {33}\BRchvsep \BRversestyle {3}\dotfill 
-		\textrm{16}
+		\textrm{16}, \textrm{55}
     \subitem \BRchapterstyle {40}\BRchvsep \BRversestyle {3}\dotfill 
-		\textrm{16}
+		\textrm{16}, \textrm{55}
     \subitem \BRchapterstyle {47}\BRchvsep \BRversestyle {8}\dotfill 
 		\textrm{13}
     \subitem \BRchapterstyle {69}\BRchvsep \BRversestyle {28}\dotfill 
@@ -158,13 +158,13 @@
     \subitem \BRchapterstyle {93}\BRchvsep \BRversestyle {3}\BRvrsep \BRversestyle {4}\dotfill 
 		\textrm{3}
     \subitem \BRchapterstyle {96}\BRchvsep \BRversestyle {1}\dotfill 
-		\textrm{16}
+		\textrm{16}, \textrm{55}
     \subitem \BRchapterstyle {96}\BRchvsep \BRversestyle {11}\BRvrsep \BRversestyle {13}\dotfill 
 		\textrm{47}
     \subitem \BRchapterstyle {97}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {2}\dotfill 
 		\textrm{2}
     \subitem \BRchapterstyle {98}\BRchvsep \BRversestyle {1}\dotfill 
-		\textrm{16}
+		\textrm{16}, \textrm{55}
     \subitem \BRchapterstyle {101}\BRchvsep \BRversestyle {3}\dotfill 
 		\textrm{6}
     \subitem \BRchapterstyle {103}\BRchvsep \BRversestyle {19}\dotfill 
@@ -184,11 +184,11 @@
     \subitem \BRchapterstyle {141}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{16}, \textrm{31}
     \subitem \BRchapterstyle {144}\BRchvsep \BRversestyle {9}\dotfill 
-		\textrm{16}
+		\textrm{16}, \textrm{55}
     \subitem \BRchapterstyle {146}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{40}
     \subitem \BRchapterstyle {149}\BRchvsep \BRversestyle {1}\dotfill 
-		\textrm{16}
+		\textrm{16}, \textrm{55}
   \item \BRbooktitlestyle {\BRbookof Proverbs}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {11}\BRvrsep \BRversestyle {12}\dotfill 
 		\textrm{11}
@@ -206,6 +206,8 @@
 		\textrm{22}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {20}\dotfill 
 		\textrm{37}
+    \subitem \BRchapterstyle {4}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {6}\dotfill 
+		\textrm{55}
     \subitem \BRchapterstyle {6}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{13}
     \subitem \BRchapterstyle {6}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {3}\dotfill 
@@ -259,7 +261,7 @@
     \subitem \BRchapterstyle {41}\BRchvsep \BRversestyle {25}\dotfill 
 		\textrm{25}
     \subitem \BRchapterstyle {42}\BRchvsep \BRversestyle {10}\dotfill 
-		\textrm{16}
+		\textrm{16}, \textrm{55}
     \subitem \BRchapterstyle {43}\BRchvsep \BRversestyle {4}\dotfill 
 		\textrm{10}
     \subitem \BRchapterstyle {43}\BRchvsep \BRversestyle {10}\dotfill 
@@ -378,6 +380,8 @@
 		\textrm{25}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {3}\BRvrsep \BRversestyle {11}\dotfill 
 		\textrm{25}
+    \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {4}\dotfill 
+		\textrm{55}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {4}\BRvrsep \BRversestyle {6}\dotfill 
 		\textrm{35}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {1}\dotfill 
@@ -521,6 +525,8 @@
 		\textrm{22}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {14}\BRvrsep \BRversestyle {16}\dotfill 
 		\textrm{21}
+    \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {16}\BRvrsep \BRversestyle {17}\dotfill 
+		\textrm{55}
   \item \BRbooktitlestyle {\BRbookof Amos}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {7}\dotfill 
 		\textrm{1}
