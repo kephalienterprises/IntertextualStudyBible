@@ -1,0 +1,18 @@
+Revelation book image processing
+1. Download highest res image available
+2. Crop image around black border
+3. Set color to 0
+4. Set clarity to a high value, sometimes more than once (save after first adjustment, then adjust again)
+5. Paint an element of the image with #ec1c24
+
+ To do
+ -Sync everything to github repo
+ -figure out how to add full size image in addition to chapter image for ch. 7, needs to show up in figures index
+ -add all refs
+ -finish coloring
+ -do appendix
+ 
+
+References to clean up
+1:14-16
+	-Dan 10:6 also mentions brass and many waters
