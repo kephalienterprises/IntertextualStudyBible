@@ -18,9 +18,9 @@
 \contentsline {chapter}{\chapternumberline {14}The Lamb and the 144,000 on Mount Zion}{55}{}%
 \contentsline {chapter}{\chapternumberline {15}The Song of Moses and of the Lamb}{59}{}%
 \contentsline {chapter}{\chapternumberline {16}The Bowls of Wrath}{61}{}%
-\contentsline {chapter}{\chapternumberline {17}The Doom of Babylon}{65}{}%
-\contentsline {chapter}{\chapternumberline {18}Fallen, Fallen is Babylon}{67}{}%
-\contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{69}{}%
-\contentsline {chapter}{\chapternumberline {20}The Millennium}{73}{}%
-\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{75}{}%
-\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{77}{}%
+\contentsline {chapter}{\chapternumberline {17}The Doom of Babylon}{67}{}%
+\contentsline {chapter}{\chapternumberline {18}Fallen, Fallen is Babylon}{69}{}%
+\contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{71}{}%
+\contentsline {chapter}{\chapternumberline {20}The Millennium}{75}{}%
+\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{77}{}%
+\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{79}{}%
