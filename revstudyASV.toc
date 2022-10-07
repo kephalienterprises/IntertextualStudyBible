@@ -20,7 +20,7 @@
 \contentsline {chapter}{\chapternumberline {16}The Bowls of Wrath}{61}{}%
 \contentsline {chapter}{\chapternumberline {17}The Doom of Babylon}{67}{}%
 \contentsline {chapter}{\chapternumberline {18}Fallen, Fallen is Babylon}{71}{}%
-\contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{73}{}%
-\contentsline {chapter}{\chapternumberline {20}The Millennium}{77}{}%
-\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{79}{}%
-\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{81}{}%
+\contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{75}{}%
+\contentsline {chapter}{\chapternumberline {20}The Millennium}{79}{}%
+\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{81}{}%
+\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{83}{}%
