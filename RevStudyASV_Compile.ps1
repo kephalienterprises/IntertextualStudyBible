@@ -1,3 +1,3 @@
 pdflatex .\RevStudyASV.tex
-Start-Process ((Resolve-Path "C:\Users\jcg59\OneDrive\Documents\GitHub\IntertextualStudyBible\RevStudyASV.pdf").Path)
+Start-Process .\RevStudyASV.pdf
 pause
