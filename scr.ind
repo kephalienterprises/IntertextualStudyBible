@@ -113,6 +113,8 @@
 		\textrm{37}
     \subitem \BRchapterstyle {32}\BRchvsep \BRversestyle {40}\BRvrsep \BRversestyle {41}\dotfill 
 		\textrm{40}
+    \subitem \BRchapterstyle {32}\BRchvsep \BRversestyle {43}\dotfill 
+		\textrm{83}
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {5}\dotfill 
 		\textrm{61}
   \item \BRbooktitlestyle {\BRbooknumberstyle {1}\BRbookof Samuel}
@@ -135,6 +137,8 @@
     \subitem \BRchapterstyle {22}\BRchvsep \BRversestyle {21}\BRvrsep \BRversestyle {23}\dotfill 
 		\textrm{67}
   \item \BRbooktitlestyle {\BRbooknumberstyle {2}\BRbookof Kings}
+    \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {7}\dotfill 
+		\textrm{83}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {22}\dotfill 
 		\textrm{7}, \textrm{37}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {27}\dotfill 
@@ -210,6 +214,8 @@
 		\textrm{20}
     \subitem \BRchapterstyle {79}\BRchvsep \BRversestyle {3}\dotfill 
 		\textrm{66}
+    \subitem \BRchapterstyle {79}\BRchvsep \BRversestyle {10}\dotfill 
+		\textrm{83}
     \subitem \BRchapterstyle {79}\BRchvsep \BRversestyle {10}\BRvrsep \BRversestyle {13}\dotfill 
 		\textrm{20}
     \subitem \BRchapterstyle {86}\BRchvsep \BRversestyle {9}\dotfill 
@@ -244,6 +250,8 @@
 		\textrm{61}
     \subitem \BRchapterstyle {115}\BRchvsep \BRversestyle {4}\BRvrsep \BRversestyle {8}\dotfill 
 		\textrm{37}
+    \subitem \BRchapterstyle {115}\BRchvsep \BRversestyle {13}\dotfill 
+		\textrm{84}
     \subitem \BRchapterstyle {119}\BRchvsep \BRversestyle {103}\dotfill 
 		\textrm{40}
     \subitem \BRchapterstyle {119}\BRchvsep \BRversestyle {137}\dotfill 
@@ -356,7 +364,7 @@
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {10}\dotfill 
 		\textrm{59}
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {9}\BRvrsep \BRversestyle {10}\dotfill 
-		\textrm{79}
+		\textrm{79}, \textrm{83}
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {9}\BRvrsep \BRversestyle {15}\dotfill 
 		\textrm{75}
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {12}\dotfill 
@@ -718,6 +726,8 @@
 		\textrm{3}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {5}\dotfill 
 		\textrm{3}, \textrm{62}
+    \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {5}\BRvrsep \BRversestyle {6}\dotfill 
+		\textrm{83}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{3}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {9}\dotfill 
