@@ -1,5 +1,4 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{Contents}{v}{}%
 \contentsline {chapter}{List of Figures}{vii}{}%
 \contentsline {chapter}{Preface}{ix}{}%
 \contentsline {chapter}{\chapternumberline {1}One Like a Son of Man}{1}{}%
