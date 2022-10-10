@@ -207,6 +207,21 @@
 
 \setlength{\emergencystretch}{3em}
 
+%two column rule
+% \setlength{\columnseprule}{0.01pt}
+% \newcommand{\latexcolumnseprulecolor}{\color[rgb]{0.9,0.9,0.9}}
+% \usepackage{etoolbox}
+% \makeatletter
+% \patchcmd\@outputdblcol{% find
+  % \normalcolor\vrule
+% }{% and replace by
+  % \latexcolumnseprulecolor\vrule
+% }{% success
+% }{% failure
+  % \@latex@warning{Patching \string\@outputdblcol\space failed}%
+% }
+% \makeatother
+
 \makeindex[title=Scripture Index,name=scr,options=-s index_style.ist]
 \makeindex[title=General Index, name=gen]
 \renewcommand{\biblerefindex}{\index[scr]}
