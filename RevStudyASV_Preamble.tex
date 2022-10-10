@@ -12,6 +12,7 @@
 \usepackage{marginnote}
 \usepackage{comment}
 \usepackage{pdfpages}
+%\usepackage{cuted} % this package provides the \strip macro which creates page-wide boxes
 %\usepackage{ftnright} % this package pushes all the footnotes to the right hand column but with as many footnotes as I have it isn't working well
 
 \renewcommand*{\marginfont}{\color{red}}
@@ -203,6 +204,8 @@
 \setbooktitle{Psalms}{Psalm}
 \setindexbooktitle{Psalms}{Psalms}
 \setbooktitle{SongofSongs}{Song of Solomon}
+
+\setlength{\emergencystretch}{3em}
 
 \makeindex[title=Scripture Index,name=scr,options=-s index_style.ist]
 \makeindex[title=General Index, name=gen]
