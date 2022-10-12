@@ -21,6 +21,6 @@
 \contentsline {chapter}{\chapternumberline {18}Fallen, Fallen is Babylon}{73}{}%
 \contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{79}{}%
 \contentsline {chapter}{\chapternumberline {20}The Millennium}{85}{}%
-\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{87}{}%
-\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{89}{}%
-\contentsline {chapter}{Notes}{91}{}%
+\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{89}{}%
+\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{91}{}%
+\contentsline {chapter}{Notes}{93}{}%
