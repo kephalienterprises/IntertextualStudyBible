@@ -91,6 +91,8 @@
   \item \BRbooktitlestyle {\BRbookof Leviticus}
     \subitem \BRchapterstyle {21}\BRchvsep \BRversestyle {9}\dotfill 
 		\textrm{71}
+    \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {12}\dotfill 
+		\textrm{89}
     \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{61}
   \item \BRbooktitlestyle {\BRbookof Numbers}
@@ -184,6 +186,10 @@
   \item \BRbooktitlestyle {\BRbookof Nehemiah}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{40}
+    \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {1}\dotfill 
+		\textrm{89}
+    \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {18}\dotfill 
+		\textrm{89}
   \item \BRbooktitlestyle {\BRbookof Job}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {6}\BRvrsep \BRversestyle {7}\dotfill 
 		\textrm{49}
@@ -272,6 +278,8 @@
 		\textrm{80}
     \subitem \BRchapterstyle {93}\BRchvsep \BRversestyle {3}\BRvrsep \BRversestyle {4}\dotfill 
 		\textrm{3}
+    \subitem \BRchapterstyle {95}\BRchvsep \BRversestyle {7}\dotfill 
+		\textrm{89}
     \subitem \BRchapterstyle {96}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{16}, \textrm{57}
     \subitem \BRchapterstyle {96}\BRchvsep \BRversestyle {11}\BRvrsep \BRversestyle {13}\dotfill 
@@ -416,7 +424,7 @@
     \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {23}\dotfill 
 		\textrm{13}
     \subitem \BRchapterstyle {25}\BRchvsep \BRversestyle {8}\dotfill 
-		\textrm{87}
+		\textrm{87}, \textrm{89}
     \subitem \BRchapterstyle {25}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {9}\dotfill 
 		\textrm{27}
     \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {17}\dotfill 
@@ -445,6 +453,8 @@
 		\textrm{73}
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {12}\dotfill 
 		\textrm{21}
+    \subitem \BRchapterstyle {35}\BRchvsep \BRversestyle {10}\dotfill 
+		\textrm{90}
     \subitem \BRchapterstyle {40}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{75}
     \subitem \BRchapterstyle {40}\BRchvsep \BRversestyle {31}\dotfill 
@@ -461,6 +471,10 @@
 		\textrm{10}
     \subitem \BRchapterstyle {43}\BRchvsep \BRversestyle {10}\dotfill 
 		\textrm{2}
+    \subitem \BRchapterstyle {43}\BRchvsep \BRversestyle {18}\dotfill 
+		\textrm{90}
+    \subitem \BRchapterstyle {43}\BRchvsep \BRversestyle {19}\dotfill 
+		\textrm{90}
     \subitem \BRchapterstyle {44}\BRchvsep \BRversestyle {5}\dotfill 
 		\textrm{55}
     \subitem \BRchapterstyle {44}\BRchvsep \BRversestyle {6}\dotfill 
@@ -524,7 +538,7 @@
     \subitem \BRchapterstyle {61}\BRchvsep \BRversestyle {6}\BRvrsep \BRversestyle {7}\dotfill 
 		\textrm{16}
     \subitem \BRchapterstyle {61}\BRchvsep \BRversestyle {10}\dotfill 
-		\textrm{80}
+		\textrm{80}, \textrm{89}
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{2}, \textrm{7}
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {3}\dotfill 
@@ -537,10 +551,16 @@
 		\textrm{7}
     \subitem \BRchapterstyle {65}\BRchvsep \BRversestyle {16}\dotfill 
 		\textrm{10}
+    \subitem \BRchapterstyle {65}\BRchvsep \BRversestyle {17}\dotfill 
+		\textrm{89, 90}
+    \subitem \BRchapterstyle {65}\BRchvsep \BRversestyle {19}\dotfill 
+		\textrm{90}
     \subitem \BRchapterstyle {66}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{63}, \textrm{65}
     \subitem \BRchapterstyle {66}\BRchvsep \BRversestyle {7}\BRvrsep \BRversestyle {13}\dotfill 
 		\textrm{47}
+    \subitem \BRchapterstyle {66}\BRchvsep \BRversestyle {22}\dotfill 
+		\textrm{89}
   \item \BRbooktitlestyle {\BRbookof Jeremiah}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {5}\dotfill 
 		\textrm{5}
@@ -568,6 +588,8 @@
 		\textrm{54}
     \subitem \BRchapterstyle {15}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {3}\dotfill 
 		\textrm{20}
+    \subitem \BRchapterstyle {15}\BRchvsep \BRversestyle {16}\BRvrsep \BRversestyle {17}\dotfill 
+		\textrm{40}
     \subitem \BRchapterstyle {16}\BRchvsep \BRversestyle {9}\dotfill 
 		\textrm{78}
     \subitem \BRchapterstyle {16}\BRchvsep \BRversestyle {18}\dotfill 
@@ -590,6 +612,10 @@
 		\textrm{39}, \textrm{60}
     \subitem \BRchapterstyle {30}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{2}
+    \subitem \BRchapterstyle {31}\BRchvsep \BRversestyle {1}\dotfill 
+		\textrm{89}
+    \subitem \BRchapterstyle {31}\BRchvsep \BRversestyle {16}\dotfill 
+		\textrm{89}
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {22}\dotfill 
 		\textrm{71}
     \subitem \BRchapterstyle {43}\BRchvsep \BRversestyle {11}\dotfill 
@@ -745,6 +771,8 @@
 		\textrm{43}, \textrm{85}
     \subitem \BRchapterstyle {37}\BRchvsep \BRversestyle {23}\BRvrsep \BRversestyle {28}\dotfill 
 		\textrm{26}
+    \subitem \BRchapterstyle {37}\BRchvsep \BRversestyle {27}\dotfill 
+		\textrm{89}
     \subitem \BRchapterstyle {38}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {39}\BRversesuffixstyle {:16}\dotfill 
 		\textrm{85}
     \subitem \BRchapterstyle {38}\BRchvsep \BRversestyle {19}\BRvrsep \BRversestyle {20}\dotfill 
@@ -944,6 +972,8 @@
 		\textrm{19}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {12}\dotfill 
 		\textrm{20}
+    \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {10}\dotfill 
+		\textrm{89}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {13}\dotfill 
 		\textrm{31}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {2}\dotfill 
