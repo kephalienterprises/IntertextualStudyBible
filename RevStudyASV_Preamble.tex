@@ -13,6 +13,7 @@
 \usepackage{marginnote}
 \usepackage{comment}
 \usepackage{pdfpages}
+\usepackage{amssymb}
 
 %\usepackage{cuted} % this package provides the \strip macro which creates page-wide boxes
 %\usepackage{ftnright} % this package pushes all the footnotes to the right hand column but with as many footnotes as I have it isn't working well
@@ -70,16 +71,16 @@
 \newcommand{\cbiblevs}[3]{\textbf{\ibiblevs{#1}(#2)}\ {#3}}
 
 \newcommand{\cbiblefoot}[3]{\footnote{\cbibleref{#1}{#2}{#3}}}
-\newcommand{\cbiblefootduo}[6]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbibleref{#4}{#5}{#6}}}
-\newcommand{\cbiblefoottrio}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbibleref{#4}{#5}{#6}\ldots \cbibleref{#7}{#8}{#9}}}
+\newcommand{\cbiblefootduo}[6]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbibleref{#4}{#5}{#6}}}
+\newcommand{\cbiblefoottrio}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbibleref{#4}{#5}{#6}\ \cbibleref{#7}{#8}{#9}}}
 
-\newcommand{\cbiblefootduosb}[5]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblechvs{#1}{#4}{#5}}} %footnote with two texts from same book
-\newcommand{\cbiblefoottriosb}[7]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblechvs{#1}{#4}{#5}\ldots \cbiblechvs{#1}{#6}{#7}}} %footnote with three texts from same book
-\newcommand{\cbiblefootcuartosb}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblechvs{#1}{#4}{#5}\ldots \cbiblechvs{#1}{#6}{#7}\ldots \cbiblechvs{#1}{#8}{#9}}} %footnote with four texts from same book
+\newcommand{\cbiblefootduosb}[5]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbiblechvs{#1}{#4}{#5}}} %footnote with two texts from same book
+\newcommand{\cbiblefoottriosb}[7]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbiblechvs{#1}{#4}{#5}\ \cbiblechvs{#1}{#6}{#7}}} %footnote with three texts from same book
+\newcommand{\cbiblefootcuartosb}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbiblechvs{#1}{#4}{#5}\ \cbiblechvs{#1}{#6}{#7}\ \cbiblechvs{#1}{#8}{#9}}} %footnote with four texts from same book
 
-\newcommand{\cbiblefootduosbch}[5]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblevs{#1}{#4}{#5}}} %footnote with two texts from same chapter
-\newcommand{\cbiblefoottriosbch}[7]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblevs{#1}{#4}{#5}\ldots \cbiblevs{#1}{#6}{#7}}} %footnote with three texts from same chapter
-\newcommand{\cbiblefootcuatrosbch}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ldots \cbiblevs{#1}{#4}{#5}\ldots \cbiblevs{#1}{#6}{#7}\ldots \cbiblevs{#1}{#8}{#9}}} %footnote with four texts from same chapter
+\newcommand{\cbiblefootduosbch}[5]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbiblevs{#1}{#4}{#5}}} %footnote with two texts from same chapter
+\newcommand{\cbiblefoottriosbch}[7]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbiblevs{#1}{#4}{#5}\ \cbiblevs{#1}{#6}{#7}}} %footnote with three texts from same chapter
+\newcommand{\cbiblefootcuatrosbch}[9]{\footnote{\cbibleref{#1}{#2}{#3}\ \cbiblevs{#1}{#4}{#5}\ \cbiblevs{#1}{#6}{#7}\ \cbiblevs{#1}{#8}{#9}}} %footnote with four texts from same chapter
 
 %title	
 \providecommand{\HUGE}{\Huge}
