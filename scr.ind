@@ -41,7 +41,7 @@
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {10}\BRvrsep \BRversestyle {11}\dotfill 
 		\textrm{63}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {23}\BRvrsep \BRversestyle {25}\dotfill 
-		\textrm{32}
+		\textrm{31}
     \subitem \BRchapterstyle {9}\BRchvsep \BRversestyle {24}\dotfill 
 		\textrm{66}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {12}\BRvrsep \BRversestyle {15}\dotfill 
@@ -361,7 +361,7 @@
     \subitem \BRchapterstyle {139}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{5}
     \subitem \BRchapterstyle {141}\BRchvsep \BRversestyle {2}\dotfill 
-		\textrm{15}, \textrm{31}
+		\textrm{16}, \textrm{31}
     \subitem \BRchapterstyle {144}\BRchvsep \BRversestyle {9}\dotfill 
 		\textrm{16}, \textrm{57}
     \subitem \BRchapterstyle {145}\BRchvsep \BRversestyle {17}\dotfill 
@@ -440,7 +440,7 @@
     \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {7}\BRvrsep \BRversestyle {12}\dotfill 
 		\textrm{77}
     \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {17}\dotfill 
-		\textrm{33}
+		\textrm{32}
     \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{21}
     \subitem \BRchapterstyle {24}\BRchvsep \BRversestyle {21}\BRvrsep \BRversestyle {22}\dotfill 
@@ -454,7 +454,7 @@
     \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {17}\dotfill 
 		\textrm{47}
     \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {21}\dotfill 
-		\textrm{33}
+		\textrm{32}
     \subitem \BRchapterstyle {27}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{47}
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {5}\BRvrsep \BRversestyle {7}\dotfill 
@@ -842,7 +842,7 @@
     \subitem \BRchapterstyle {38}\BRchvsep \BRversestyle {22}\dotfill 
 		\textrm{59}, \textrm{86}
     \subitem \BRchapterstyle {38}\BRchvsep \BRversestyle {22}\BRvrsep \BRversestyle {23}\dotfill 
-		\textrm{32}
+		\textrm{31}
     \subitem \BRchapterstyle {39}\BRchvsep \BRversestyle {4}\dotfill 
 		\textrm{81}
     \subitem \BRchapterstyle {39}\BRchvsep \BRversestyle {4}\BRvsep \BRversestyle {17}\BRvrsep \BRversestyle {20}\dotfill 
