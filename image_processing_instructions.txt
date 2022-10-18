@@ -6,11 +6,9 @@ Revelation book image processing
 5. Paint an element of the image with #ec1c24
 
  To do
- -Sync everything to github repo
- -figure out how to add full size image in addition to chapter image for ch. 7, needs to show up in figures index
- -add all refs
  -finish coloring
- -do appendix
+ -verse formatting
+ -typesetting
  
 
 References to clean up
