@@ -140,6 +140,11 @@
 %verse numbers
 \newcommand{\vnum}[1]{\raisebox{0.5ex}{\textcolor{red}{\small{#1}}~}}
 
+%verse sections
+\newcommand{\versesection}{
+	\setlength{\vleftmargin}{0em}                   \setlength{\vindent}{0.5\vindent}               \begin{verse}
+	}
+
 %empty page
 \newcommand{\blankpage}{\newpage
 \thispagestyle{plain} % empty
