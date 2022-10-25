@@ -15,6 +15,7 @@
 \usepackage{pdfpages}
 \usepackage{amssymb}
 \usepackage{dblfnote}
+\usepackage{fancyhdr}
 
 %\usepackage{cuted} % this package provides the \strip macro which creates page-wide boxes
 %\usepackage{ftnright} % this package pushes all the footnotes to the right hand column but with as many footnotes as I have it isn't working well
@@ -217,6 +218,13 @@
 
 %\setlength{\emergencystretch}{3em}
 
+%HEADER RULE
+\makeatletter
+\def\headrule{\nointerlineskip\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi%
+    {\hfil\rule{0.5\headwidth}{\headrulewidth}} \vskip-\headrulewidth}
+\makeatother
+
+%FOOTNOTE RULE
 \makeatletter
 \renewcommand\footnoterule{%
   \kern-3\p@
