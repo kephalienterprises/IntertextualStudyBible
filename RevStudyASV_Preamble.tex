@@ -215,7 +215,14 @@
 \setindexbooktitle{Psalms}{Psalms}
 \setbooktitle{SongofSongs}{Song of Solomon}
 
-\setlength{\emergencystretch}{3em}
+%\setlength{\emergencystretch}{3em}
+
+\makeatletter
+\renewcommand\footnoterule{%
+  \kern-3\p@
+  \hrule\@width \textwidth
+  \kern2.6\p@}
+\makeatother
 
 %two column rule
 % \setlength{\columnseprule}{0.01pt}
