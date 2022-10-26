@@ -216,13 +216,12 @@
 \setindexbooktitle{Psalms}{Psalms}
 \setbooktitle{SongofSongs}{Song of Solomon}
 
-%\setlength{\emergencystretch}{3em}
+%\setlength{\emergencystretch}{3em} %this was particularly helpful with 2 column format, kept text from spilling into the space between the columns
 
 %HEADER RULE
-\makeatletter
-\def\headrule{\nointerlineskip\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi%
-    {\hfil\rule{0.5\headwidth}{\headrulewidth}} \vskip-\headrulewidth}
-\makeatother
+	
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{1pt}
 
 %FOOTNOTE RULE
 \makeatletter
