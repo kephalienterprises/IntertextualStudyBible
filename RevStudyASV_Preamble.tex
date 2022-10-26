@@ -218,10 +218,13 @@
 
 %\setlength{\emergencystretch}{3em} %this was particularly helpful with 2 column format, kept text from spilling into the space between the columns
 
-%HEADER RULE
-	
+%HEADER RULE	
 \pagestyle{fancy}
-\renewcommand{\headrulewidth}{1pt}
+%\renewcommand{\headrulewidth}{1pt}
+\renewcommand\headrule{
+\begin{minipage}{1\textwidth}
+\hrule width \hsize \kern 1mm \hrule width \hsize height 1pt 
+\end{minipage}}%
 
 %FOOTNOTE RULE
 \makeatletter
