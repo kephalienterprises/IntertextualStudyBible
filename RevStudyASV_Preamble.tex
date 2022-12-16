@@ -69,6 +69,17 @@
   \renewcommand{\thefootnote}{#1}% Update footnote counter representation
   \footnotetext[0]{#2}}}% Print footnote text
 
+% %footnote markers in footnote size equal to rest of text
+% \makeatletter
+  % \renewcommand\@makefntext[1]{%
+  % \hspace*{-2em}
+  % \parindent 0em
+  % \noindent
+  % \hb@xt@ 1.8em{\hss %  There's the option of putting \hss before
+  % \@thefnmark. }%       or after \@thefnmark, aligning the footnote
+  % #1}%                  marks to the right or to the left, respectively
+% \makeatother
+
 % bible references
 \newcommand{\cbiblerefonly}[2]{\textbf{\ibibleverse{#1}(#2)}}
 \newcommand{\cbiblechvsonly}[2]{\textbf{ibiblechvs{#1}(#2)}}
