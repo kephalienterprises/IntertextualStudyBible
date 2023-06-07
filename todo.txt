@@ -1,0 +1,9 @@
+TODO:
+
+ -finish coloring
+ 
+ -verse formatting
+ 
+ -typesetting 
+
+ -References to clean up

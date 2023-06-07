@@ -5,12 +5,4 @@ Revelation book image processing
 4. Set clarity to a high value, sometimes more than once (save after first adjustment, then adjust again)
 5. Paint an element of the image with #ec1c24
 
- To do
- -finish coloring
- -verse formatting
- -typesetting
  
-
-References to clean up
-1:14-16
-	-Dan 10:6 also mentions brass and many waters
