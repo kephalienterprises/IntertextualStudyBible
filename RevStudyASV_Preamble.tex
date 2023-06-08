@@ -1,6 +1,6 @@
 \usepackage{ebgaramond}
 \usepackage[T1]{fontenc}
-\usepackage{titlesec, xcolor}
+\usepackage[raggedright]{titlesec, xcolor}
 \usepackage[english]{babel}
 \usepackage{lettrine}
 \usepackage{graphicx}
@@ -35,7 +35,7 @@
 %for chapter headings
 \definecolor{gray75}{gray}{0.75}
 \newcommand{\hsp}{\hspace{20pt}} 
-\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+\titleformat{\chapter}[hang]{\huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\huge\bfseries\raggedright}
 
 %remove chapter spacing in LoF and LoT
 \renewcommand{\insertchapterspace}{}
