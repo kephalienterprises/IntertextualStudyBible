@@ -24,3 +24,4 @@
 \contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{93}{}%
 \contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{99}{}%
 \contentsline {chapter}{Notes}{103}{}%
+\contentsline {chapter}{Scripture Index}{105}{}%
