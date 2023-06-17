@@ -1,12 +1,12 @@
 \usepackage{ebgaramond}
 \usepackage[T1]{fontenc}
 \usepackage[raggedright]{titlesec, xcolor}
-\usepackage[english]{babel}
+\usepackage[spanish]{babel}
 \usepackage{lettrine}
 \usepackage{graphicx}
 \usepackage{afterpage}
 %\usepackage[nottoc]{tocbibind}
-\usepackage{bibleref}
+\usepackage{bibleref-spanish}
 \usepackage{indextools}
 \usepackage{ifthen}
 \usepackage{changepage}
@@ -19,6 +19,9 @@
 
 %\usepackage{cuted} % this package provides the \strip macro which creates page-wide boxes
 %\usepackage{ftnright} % this package pushes all the footnotes to the right hand column but with as many footnotes as I have it isn't working well
+
+\setlength{\headheight}{25pt} %to avoid all the fancyhdr warnings
+%\shorthandoff{"} %trying to avoid babel and bibleref-spanish crashing into each other
 
 \renewcommand*{\marginfont}{\color{red}}
 
@@ -98,9 +101,9 @@
 	\parbox[b]{0.75\textwidth}{
 	\vbox{%
 		\vspace{\drop}
-		{\noindent\HUGE\bfseries\textcolor{red}{The Revelation}\\[0.5\baselineskip]\textcolor{red}{of Jesus Christ}}\\\\
-		{\Large\itshape Reading in Light of the Old Testament}\\[4\baselineskip]		
-		{\noindent Arranged by Caleb George}\par
+		{\noindent\HUGE\bfseries\textcolor{red}{La Revelación}\\[0.5\baselineskip]\textcolor{red}{de Jesucristo}}\\\\
+		{\Large\itshape Leyendo a la Luz \\del Antiguo Testamento}\\[4\baselineskip]		
+		{\noindent Arreglado by Caleb George}\par
 		\vspace{0.4\textheight}
 		{\textbf{Kephali Press}}\\[\baselineskip]
 		}% end of vbox
@@ -129,7 +132,7 @@
 	\vbox{%
 		\vspace{2\drop}	
 		\begin{flushright}	
-		{\Large\itshape For My Beloved Mabeliz}\\[1\baselineskip]		
+		{\Large\itshape Para Mi Amada Mabeliz}\\[1\baselineskip]		
 		%{\noindent\itshape With all my love}\par
 		\end{flushright}
 		\vspace{0.4\textheight}
@@ -249,6 +252,6 @@
 % }
 % \makeatother
 
-\makeindex[title=Scripture Index,name=scr,options=-s index_style.ist,intoc]
+\makeindex[title=Índice de Escrituras,name=scr,options=-s index_style.ist,intoc]
 \makeindex[title=General Index, name=gen]
 \renewcommand{\biblerefindex}{\index[scr]}
