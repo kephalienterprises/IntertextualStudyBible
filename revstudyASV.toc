@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}
 \contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {vii}}{}%
 \contentsline {chapter}{Prefacio}{\es@scroman {ix}}{}%
-\contentsline {chapter}{\chapternumberline {1}One Like a Son of Man}{1}{}%
+\contentsline {chapter}{\chapternumberline {1}Uno Semejante \linebreak [0]al \mbox {Hijo del Hombre}}{1}{}%
 \contentsline {chapter}{\chapternumberline {2}Letters to Churches I}{5}{}%
 \contentsline {chapter}{\chapternumberline {3}Letters to Churches II}{9}{}%
 \contentsline {chapter}{\chapternumberline {4}The Enthroned One}{13}{}%
@@ -23,5 +23,5 @@
 \contentsline {chapter}{\chapternumberline {20}The Millennium}{89}{}%
 \contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{93}{}%
 \contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{99}{}%
-\contentsline {chapter}{Notes}{103}{}%
-\contentsline {chapter}{Indice de Escrituras}{105}{}%
+\contentsline {chapter}{Notas}{103}{}%
+\contentsline {chapter}{Índice de Escrituras}{105}{}%
