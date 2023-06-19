@@ -215,7 +215,7 @@
 		\textrm{36}
     \subitem \BRchapterstyle {12}\BRchvsep \BRversestyle {14}\dotfill 
 		\textrm{10}
-  \item \BRbooktitlestyle {Psalms}
+  \item \BRbooktitlestyle {Salmos}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{86}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\BRvsep \BRversestyle {6}\BRvsep \BRversestyle {8}\dotfill 
@@ -375,7 +375,7 @@
 		\textrm{11}
     \subitem \BRchapterstyle {8}\BRchvsep \BRversestyle {22}\BRvrsep \BRversestyle {23}\dotfill 
 		\textrm{10}
-  \item \BRbooktitlestyle {Song of Solomon}
+  \item \BRbooktitlestyle {Cantares}
     \subitem \BRchapterstyle {5}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{11}
   \item \BRbooktitlestyle {Isa\'ias}
