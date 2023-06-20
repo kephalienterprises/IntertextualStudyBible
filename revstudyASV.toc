@@ -3,7 +3,7 @@
 \contentsline {chapter}{Prefacio}{\es@scroman {ix}}{}%
 \contentsline {chapter}{\chapternumberline {1}Uno Semejante \linebreak [0]al \mbox {Hijo del Hombre}}{1}{}%
 \contentsline {chapter}{\chapternumberline {2}Cartas a las Iglesias I}{5}{}%
-\contentsline {chapter}{\chapternumberline {3}Letters to Churches II}{9}{}%
+\contentsline {chapter}{\chapternumberline {3}Cartas a Iglesias II}{9}{}%
 \contentsline {chapter}{\chapternumberline {4}The Enthroned One}{13}{}%
 \contentsline {chapter}{\chapternumberline {5}The Scroll and the Lamb}{15}{}%
 \contentsline {chapter}{\chapternumberline {6}The First Six Seals}{19}{}%
