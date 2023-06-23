@@ -997,10 +997,10 @@
 		\textrm{36}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {11}\dotfill 
 		\textrm{22}
-    \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {4}\dotfill 
-		\textrm{22}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {13}\dotfill 
 		\textrm{60}
+    \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {14}\dotfill 
+		\textrm{22}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {14}\BRvrsep \BRversestyle {16}\dotfill 
 		\textrm{21}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {16}\BRvrsep \BRversestyle {17}\dotfill 
