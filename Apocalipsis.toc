@@ -9,7 +9,7 @@
 \contentsline {chapter}{\chapternumberline {6}Los Primeros Seis Sellos}{19}{}%
 \contentsline {chapter}{\chapternumberline {7}Los Siervos de Nuestro Dios}{25}{}%
 \contentsline {chapter}{\chapternumberline {8}El Septimo Sello: Trompetas}{31}{}%
-\contentsline {chapter}{\chapternumberline {9}The Fifth and Sixth Trumpets}{35}{}%
+\contentsline {chapter}{\chapternumberline {9}La Quinta y Sexta Trompetas}{35}{}%
 \contentsline {chapter}{\chapternumberline {10}The Angel and \linebreak [0] \mbox {the Little Scroll}}{39}{}%
 \contentsline {chapter}{\chapternumberline {11}The Two Witnesses and \linebreak [0] \mbox {the Seventh Trumpet}}{41}{}%
 \contentsline {chapter}{\chapternumberline {12}The Woman and the Dragon}{47}{}%
