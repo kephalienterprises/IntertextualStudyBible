@@ -47,7 +47,7 @@
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {12}\BRvrsep \BRversestyle {15}\dotfill 
 		\textrm{35}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {21}\dotfill 
-		\textrm{33}
+		\textrm{32}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {22}\dotfill 
 		\textrm{66}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {6}\BRvrsep \BRversestyle {7}\dotfill 
@@ -1013,7 +1013,7 @@
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {8}\dotfill 
 		\textrm{39}
     \subitem \BRchapterstyle {8}\BRchvsep \BRversestyle {9}\dotfill 
-		\textrm{33}
+		\textrm{32}
   \item \BRbooktitlestyle {Abdias}
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{43}
