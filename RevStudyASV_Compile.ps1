@@ -1,3 +1,3 @@
-pdflatex .\RevStudyASV.tex
-Start-Process .\RevStudyASV.pdf
+pdflatex .\RevStudy.tex
+Start-Process .\RevStudy.pdf
 pause
