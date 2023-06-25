@@ -6,9 +6,9 @@
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {10}\dotfill 
 		\textrm{99}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {1}\dotfill 
-		\textrm{49}
+		\textrm{48}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {14}\BRvrsep \BRversestyle {15}\dotfill 
-		\textrm{49}
+		\textrm{48}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {15}\dotfill 
 		\textrm{50}
     \subitem \BRchapterstyle {3}\BRchvsep \BRversestyle {22}\BRvrsep \BRversestyle {24}\dotfill 
@@ -402,7 +402,7 @@
     \subitem \BRchapterstyle {6}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {4}\dotfill 
 		\textrm{14}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {14}\dotfill 
-		\textrm{47, 48}
+		\textrm{47}
     \subitem \BRchapterstyle {8}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{66}
     \subitem \BRchapterstyle {8}\BRchvsep \BRversestyle {22}\dotfill 
@@ -456,7 +456,7 @@
     \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{33}
     \subitem \BRchapterstyle {27}\BRchvsep \BRversestyle {1}\dotfill 
-		\textrm{48}
+		\textrm{47}
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {5}\BRvrsep \BRversestyle {7}\dotfill 
 		\textrm{44}
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {6}\dotfill 
@@ -816,7 +816,7 @@
     \subitem \BRchapterstyle {28}\BRchvsep \BRversestyle {14}\dotfill 
 		\textrm{5}
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {3}\dotfill 
-		\textrm{48}
+		\textrm{47}
     \subitem \BRchapterstyle {32}\BRchvsep \BRversestyle {7}\BRvrsep \BRversestyle {9}\dotfill 
 		\textrm{21}
     \subitem \BRchapterstyle {33}\BRchvsep \BRversestyle {27}\dotfill 
@@ -881,7 +881,7 @@
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {28}\BRvrsep \BRversestyle {29}\dotfill 
 		\textrm{100}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {35}\dotfill 
-		\textrm{49}, \textrm{91}
+		\textrm{48}, \textrm{91}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {44}\dotfill 
 		\textrm{43}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {45}\dotfill 
