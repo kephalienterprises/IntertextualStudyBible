@@ -166,8 +166,8 @@
 		\textrm{42}
     \subitem \BRchapterstyle {17}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {6}\dotfill 
 		\textrm{48}
-    \subitem \BRchapterstyle {18}\BRchvsep \BRversestyle {38}\dotfill 
-		\textrm{55}
+    \subitem \BRchapterstyle {18}\BRchvsep \BRversestyle {38}\BRvrsep \BRversestyle {39}\dotfill 
+		\textrm{54}
     \subitem \BRchapterstyle {22}\BRchvsep \BRversestyle {19}\dotfill 
 		\textrm{13}
     \subitem \BRchapterstyle {22}\BRchvsep \BRversestyle {21}\BRvrsep \BRversestyle {23}\dotfill 

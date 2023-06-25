@@ -13,7 +13,7 @@
 \contentsline {chapter}{\chapternumberline {10}El Ángel y el Rollito}{39}{}%
 \contentsline {chapter}{\chapternumberline {11}Los Dos Testigos y \linebreak [0]\mbox {la Septima Trompeta}}{41}{}%
 \contentsline {chapter}{\chapternumberline {12}La Mujer y el Dragón}{47}{}%
-\contentsline {chapter}{\chapternumberline {13}The Sea and Earth Beasts}{53}{}%
+\contentsline {chapter}{\chapternumberline {13}Las Bestias del Mar y de la Tierra}{53}{}%
 \contentsline {chapter}{\chapternumberline {14}The Lamb on Mt. Zion}{57}{}%
 \contentsline {chapter}{\chapternumberline {15}The Song of Moses and of the Lamb}{61}{}%
 \contentsline {chapter}{\chapternumberline {16}The Bowls of Wrath}{65}{}%
