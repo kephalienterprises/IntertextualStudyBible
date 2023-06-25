@@ -10,7 +10,7 @@
 \contentsline {chapter}{\chapternumberline {7}Los Siervos de Nuestro Dios}{25}{}%
 \contentsline {chapter}{\chapternumberline {8}El Septimo Sello: Trompetas}{31}{}%
 \contentsline {chapter}{\chapternumberline {9}La Quinta y Sexta Trompetas}{35}{}%
-\contentsline {chapter}{\chapternumberline {10}El Angel y el Rollito}{39}{}%
+\contentsline {chapter}{\chapternumberline {10}El Ángel y el Rollito}{39}{}%
 \contentsline {chapter}{\chapternumberline {11}Los Dos Testigos y \linebreak [0]\mbox {la Septima Trompeta}}{41}{}%
 \contentsline {chapter}{\chapternumberline {12}La Mujer y el Dragón}{47}{}%
 \contentsline {chapter}{\chapternumberline {13}The Sea and Earth Beasts}{53}{}%
