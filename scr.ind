@@ -48,7 +48,7 @@
 		\textrm{35}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {21}\dotfill 
 		\textrm{32}
-    \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {22}\dotfill 
+    \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {21}\BRvrsep \BRversestyle {22}\dotfill 
 		\textrm{64}
     \subitem \BRchapterstyle {11}\BRchvsep \BRversestyle {6}\BRvrsep \BRversestyle {7}\dotfill 
 		\textrm{25}
@@ -608,7 +608,7 @@
     \subitem \BRchapterstyle {65}\BRchvsep \BRversestyle {19}\dotfill 
 		\textrm{92}
     \subitem \BRchapterstyle {66}\BRchvsep \BRversestyle {6}\dotfill 
-		\textrm{63}, \textrm{66}
+		\textrm{63}, \textrm{65}
     \subitem \BRchapterstyle {66}\BRchvsep \BRversestyle {7}\BRvrsep \BRversestyle {13}\dotfill 
 		\textrm{47}
     \subitem \BRchapterstyle {66}\BRchvsep \BRversestyle {22}\dotfill 
@@ -796,7 +796,7 @@
     \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {19}\dotfill 
 		\textrm{77}
     \subitem \BRchapterstyle {26}\BRchvsep \BRversestyle {19}\BRvrsep \BRversestyle {21}\dotfill 
-		\textrm{70}, \textrm{78}
+		\textrm{71}, \textrm{78}
     \subitem \BRchapterstyle {27}\BRchvsep \BRversestyle {12}\BRvrsep \BRversestyle {25}\dotfill 
 		\textrm{76}
     \subitem \BRchapterstyle {27}\BRchvsep \BRversestyle {27}\BRvrsep \BRversestyle {29}\dotfill 

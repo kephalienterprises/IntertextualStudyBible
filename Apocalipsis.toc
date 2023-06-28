@@ -16,8 +16,8 @@
 \contentsline {chapter}{\chapternumberline {13}Las Bestias del Mar y de la Tierra}{53}{}%
 \contentsline {chapter}{\chapternumberline {14}El Cordero Sobre el Monte Sión}{57}{}%
 \contentsline {chapter}{\chapternumberline {15}El Cántico de Moisés y del Cordero}{61}{}%
-\contentsline {chapter}{\chapternumberline {16}The Bowls of Wrath}{63}{}%
-\contentsline {chapter}{\chapternumberline {17}The Doom of Babylon}{69}{}%
+\contentsline {chapter}{\chapternumberline {16}Las Copas de Ira}{63}{}%
+\contentsline {chapter}{\chapternumberline {17}La Ruina de Babilonia}{69}{}%
 \contentsline {chapter}{\chapternumberline {18}Fallen, Fallen is Babylon}{73}{}%
 \contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{81}{}%
 \contentsline {chapter}{\chapternumberline {20}The Millennium}{87}{}%
