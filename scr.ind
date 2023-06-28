@@ -217,7 +217,7 @@
 		\textrm{9}
   \item \BRbooktitlestyle {Salmos}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\dotfill 
-		\textrm{82}
+		\textrm{81}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\BRvsep \BRversestyle {6}\BRvsep \BRversestyle {8}\dotfill 
 		\textrm{43}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {9}\dotfill 
@@ -341,7 +341,7 @@
     \subitem \BRchapterstyle {115}\BRchvsep \BRversestyle {4}\BRvrsep \BRversestyle {8}\dotfill 
 		\textrm{37}
     \subitem \BRchapterstyle {115}\BRchvsep \BRversestyle {13}\dotfill 
-		\textrm{44}, \textrm{80}
+		\textrm{44}, \textrm{79}
     \subitem \BRchapterstyle {118}\BRchvsep \BRversestyle {19}\BRvrsep \BRversestyle {20}\dotfill 
 		\textrm{96}
     \subitem \BRchapterstyle {118}\BRchvsep \BRversestyle {24}\dotfill 
@@ -592,7 +592,7 @@
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {2}\dotfill 
 		\textrm{2}, \textrm{7}
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {3}\dotfill 
-		\textrm{81}
+		\textrm{80}
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{91}
     \subitem \BRchapterstyle {63}\BRchvsep \BRversestyle {1}\BRvrsep \BRversestyle {6}\dotfill 
@@ -845,8 +845,6 @@
 		\textrm{32}
     \subitem \BRchapterstyle {39}\BRchvsep \BRversestyle {4}\dotfill 
 		\textrm{81}
-    \subitem \BRchapterstyle {39}\BRchvsep \BRversestyle {4}\BRvsep \BRversestyle {17}\BRvrsep \BRversestyle {20}\dotfill 
-		\textrm{82}
     \subitem \BRchapterstyle {39}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{86}
     \subitem \BRchapterstyle {39}\BRchvsep \BRversestyle {17}\BRvrsep \BRversestyle {20}\dotfill 
@@ -911,7 +909,7 @@
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {11}\dotfill 
 		\textrm{54}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {11}\BRvrsep \BRversestyle {12}\dotfill 
-		\textrm{82}
+		\textrm{81}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {13}\dotfill 
 		\textrm{2, 3}
     \subitem \BRchapterstyle {7}\BRchvsep \BRversestyle {13}\BRvrsep \BRversestyle {14}\dotfill 
@@ -953,7 +951,7 @@
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {5}\BRvrsep \BRversestyle {6}\dotfill 
 		\textrm{79}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {6}\dotfill 
-		\textrm{3}, \textrm{81}
+		\textrm{3}, \textrm{80}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {8}\BRvrsep \BRversestyle {9}\dotfill 
 		\textrm{4}
     \subitem \BRchapterstyle {10}\BRchvsep \BRversestyle {13}\BRvsep \BRversestyle {20}\BRvrsep \BRversestyle {21}\dotfill 
