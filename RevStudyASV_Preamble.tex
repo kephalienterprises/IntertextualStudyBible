@@ -10,7 +10,7 @@
 \usepackage{indextools}
 \usepackage{ifthen}
 \usepackage{changepage}
-%\usepackage{marginnote}
+\usepackage{marginnote}
 \usepackage{comment} %allows use of \begin{comment} or \comment and \end{comment} or \endcomment for block comments
 \usepackage{pdfpages} %simplifies the inclusion of external multi-page PDF documents in LATEX documents (used for cover page)
 \usepackage{amssymb} %defines all the symbols found in the AMS symbol fonts msam and msbm (used for copyright symbols, etc.)
@@ -18,6 +18,7 @@
 %\usepackage{fnpos} %footnote positioning commands
 \usepackage{fancyhdr}
 %\usepackage{microtype}
+\usepackage{etoolbox}
 
 %\usepackage{cuted} % this package provides the \strip macro which creates page-wide boxes
 %\usepackage{ftnright} % this package pushes all the footnotes to the right hand column but with as many footnotes as I have it isn't working well
@@ -25,7 +26,19 @@
 \setlength{\headheight}{25pt} %to avoid all the fancyhdr warnings
 %\shorthandoff{"} %trying to avoid babel and bibleref-spanish crashing into each other
 
-%\renewcommand*{\marginfont}{\color{red}}
+\renewcommand*{\marginfont}{\color{gray}\tiny}
+
+%get marginpar to show up on the correct side of page
+\makeatletter
+\patchcmd{\@addmarginpar}{\ifodd\c@page}{\ifodd\c@page\@tempcnta\m@ne}{}{}
+\makeatother
+\reversemarginpar
+
+%set marginpar font size to footnote size and prevent page overflow
+\let\oldmarginpar\marginpar
+\renewcommand{\marginpar}[1]{\oldmarginpar[\raggedleft\tiny\color{gray}{#1}]{\raggedright\tiny\color{gray}{#1}}}
+
+
 \DFNalwaysdouble %make footnotes (almost) always two column, even if there is enough space to fit them in a single column
 
 \strictpagecheck
