@@ -22,6 +22,6 @@
 \contentsline {chapter}{\chapternumberline {19}Las Bodas del Cordero}{79}{}%
 \contentsline {chapter}{\chapternumberline {20}El Milenio}{85}{}%
 \contentsline {chapter}{\chapternumberline {21}Un Cielo Nuevo y \mbox {una Tierra Nueva}}{89}{}%
-\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{95}{}%
+\contentsline {chapter}{\chapternumberline {22}El Rio y el Arbol de Vida}{95}{}%
 \contentsline {chapter}{Notas}{99}{}%
 \contentsline {chapter}{Índice de Escrituras}{101}{}%

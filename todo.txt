@@ -1,9 +1,19 @@
 TODO:
 
  -finish coloring
- 
+	-9.1 the four angels of death
+	-10.1 swallowing the book
+	-12.1 the apocalyptic woman
+	-12.2 michael fighting the dragon
+	-13.1 the beast with the lambs horns
+	-17.1 the whore of babylon
+	-20.1 the angel with the key to the bottomless pit
+	
  -verse formatting
  
  -typesetting 
+	-make fig 6.2 bigger
+	-make fig 7.2 smaller
+	-make fig 8.1 bigger
 
  -References to clean up
