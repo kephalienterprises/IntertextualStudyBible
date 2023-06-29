@@ -20,7 +20,7 @@
 \contentsline {chapter}{\chapternumberline {17}La Ruina de Babilonia}{69}{}%
 \contentsline {chapter}{\chapternumberline {18}Ha Caído la Gran Babilonia}{73}{}%
 \contentsline {chapter}{\chapternumberline {19}Las Bodas del Cordero}{79}{}%
-\contentsline {chapter}{\chapternumberline {20}The Millennium}{85}{}%
+\contentsline {chapter}{\chapternumberline {20}El Milenio}{85}{}%
 \contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{89}{}%
 \contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{95}{}%
 \contentsline {chapter}{Notas}{99}{}%
