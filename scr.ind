@@ -271,7 +271,7 @@
     \subitem \BRchapterstyle {72}\BRchvsep \BRversestyle {10}\BRvrsep \BRversestyle {11}\dotfill 
 		\textrm{96}
     \subitem \BRchapterstyle {72}\BRchvsep \BRversestyle {18}\BRvrsep \BRversestyle {19}\dotfill 
-		\textrm{2}
+		\textrm{1}
     \subitem \BRchapterstyle {75}\BRchvsep \BRversestyle {8}\dotfill 
 		\textrm{59}
     \subitem \BRchapterstyle {78}\BRchvsep \BRversestyle {44}\dotfill 
@@ -464,7 +464,7 @@
     \subitem \BRchapterstyle {29}\BRchvsep \BRversestyle {11}\BRvrsep \BRversestyle {12}\dotfill 
 		\textrm{15}
     \subitem \BRchapterstyle {30}\BRchvsep \BRversestyle {8}\dotfill 
-		\textrm{3}
+		\textrm{2}
     \subitem \BRchapterstyle {30}\BRchvsep \BRversestyle {33}\dotfill 
 		\textrm{86}
     \subitem \BRchapterstyle {34}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {6}\dotfill 
@@ -590,7 +590,7 @@
     \subitem \BRchapterstyle {61}\BRchvsep \BRversestyle {10}\dotfill 
 		\textrm{84}, \textrm{93}
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {2}\dotfill 
-		\textrm{2}, \textrm{7}
+		\textrm{7}
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {2}\BRvrsep \BRversestyle {3}\dotfill 
 		\textrm{85}
     \subitem \BRchapterstyle {62}\BRchvsep \BRversestyle {6}\dotfill 
@@ -667,7 +667,7 @@
     \subitem \BRchapterstyle {25}\BRchvsep \BRversestyle {30}\BRvrsep \BRversestyle {31}\dotfill 
 		\textrm{39}, \textrm{60}
     \subitem \BRchapterstyle {30}\BRchvsep \BRversestyle {2}\dotfill 
-		\textrm{3}
+		\textrm{2}
     \subitem \BRchapterstyle {31}\BRchvsep \BRversestyle {1}\dotfill 
 		\textrm{93}
     \subitem \BRchapterstyle {31}\BRchvsep \BRversestyle {16}\dotfill 
@@ -1037,7 +1037,7 @@
     \subitem \BRchapterstyle {1}\BRchvsep \BRversestyle {6}\dotfill 
 		\textrm{90}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {2}\dotfill 
-		\textrm{3}
+		\textrm{2}
     \subitem \BRchapterstyle {2}\BRchvsep \BRversestyle {20}\dotfill 
 		\textrm{31}
   \item \BRbooktitlestyle {\BRbookof Zephaniah}

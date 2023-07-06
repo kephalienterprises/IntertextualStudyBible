@@ -1,0 +1,3 @@
+things to add to preface
+-why i chose translation i did
+-footnote formatting choices (using periods at end of footnotes even though text may not actually have a period there, capitalizing beginning of quoted texts even if they may not be the beginning of the sentence in the original text; if I have omitted words in the middle of a text, I have indicated so with ellipses)
