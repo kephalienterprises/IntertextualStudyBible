@@ -23,5 +23,8 @@
 \contentsline {chapter}{\chapternumberline {20}The Millennium}{87}{}%
 \contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{91}{}%
 \contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{97}{}%
-\contentsline {chapter}{Notes}{101}{}%
-\contentsline {chapter}{Scripture Index}{103}{}%
+\contentsline {chapter}{Appendices}{101}{}%
+\contentsline {chapter}{Appendices}{103}{}%
+\contentsline {chapter}{Apocalyptic Numbers}{103}{}%
+\contentsline {chapter}{Notes}{109}{}%
+\contentsline {chapter}{Scripture Index}{111}{}%
