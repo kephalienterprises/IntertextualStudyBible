@@ -1,11 +1,14 @@
 %CHAPTER 1
 \chapterfigure[width=\linewidth]{Durer/Durer-candlesticks.png}[St. John's Vision of the Seven Candlesticks]{St. John's Vision of the Seven Candlesticks. Albrecht Dürer, 1498.}
 
-\pagestyle{fancy}
 \cftinserthook{toc}{mainmattertoc}
 \mainmatter
 \trimFrame
 \chapter{One Like a Son of Man}
+\fancyhead{} %clear formatting
+\fancyhead[LE]{CHAPTER 1} %for even pages, put the chapter number on left side; for odd pages, put chapter title on right
+\fancyhead[RO]{ONE LIKE A SON OF MAN}
+\pagestyle{fancy}
 \begingroup
 \let\clearpage\relax
 \endgroup

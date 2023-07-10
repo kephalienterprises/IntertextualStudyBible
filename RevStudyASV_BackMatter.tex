@@ -7,7 +7,10 @@
 \onecolumn
 \setcounter{footnote}{0}
 \chapter*{Apocalyptic Numbers}
-\markboth{Apocalyptic Numbers}{}
+%\markboth{Apocalyptic Numbers}{}
+\fancyhead{} %clear formatting
+\fancyhead[LE]{APPENDICES} %for even pages, put the chapter number on left side; for odd pages, put chapter title on right
+\fancyhead[RO]{APOCALYPTIC NUMBERS}
 \addcontentsline{toc}{section}{Apocalyptic Numbers}
 
 When Christ revealed the apocalyptic vision to John, he did so in a way that made sense in light of previous 
@@ -187,7 +190,15 @@ Matthew 10.1-2; 19:28 & Twelve apostles of Christ \\
 
 \printindex[gen]
 \chapter{Notes}
+\fancyhead{} %clear formatting
+\fancyhead[LE]{NOTES} %for even pages, put the chapter number on left side; for odd pages, put chapter title on right
+\fancyhead[RO]{NOTES}
+\newpage\mbox{}\cleardoublepage
+\newpage\mbox{}\cleardoublepage
 \renewcommand*{\BRbooktitlestyle}[1]{\textbf{#1}\nopagebreak}
 \clearpage
 \chaptermark{Scripture Index}
+\fancyhead{} %clear formatting
+\fancyhead[LE]{SCRIPTURE INDEX} %for even pages, put the chapter number on left side; for odd pages, put chapter title on right
+\fancyhead[RO]{SCRIPTURE INDEX}
 \printindex[scr]

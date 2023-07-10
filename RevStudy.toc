@@ -28,4 +28,4 @@
 \contentsline {chapter}{Appendices}{101}{}%
 \contentsline {section}{Apocalyptic Numbers}{103}{}%
 \contentsline {chapter}{Notes}{111}{}%
-\contentsline {chapter}{Scripture Index}{113}{}%
+\contentsline {chapter}{Scripture Index}{115}{}%
