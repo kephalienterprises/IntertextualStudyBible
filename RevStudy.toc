@@ -1,6 +1,7 @@
 \babel@toc {english}{}
 \contentsline {chapter}{List of Figures}{vii}{}%
 \contentsline {chapter}{Preface}{ix}{}%
+\cftinsert {mainmattertoc}
 \contentsline {chapter}{\chapternumberline {1}One Like a Son of Man}{1}{}%
 \contentsline {chapter}{\chapternumberline {2}Letters to Churches I}{5}{}%
 \contentsline {chapter}{\chapternumberline {3}Letters to Churches II}{9}{}%
@@ -23,8 +24,8 @@
 \contentsline {chapter}{\chapternumberline {20}The Millennium}{87}{}%
 \contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{91}{}%
 \contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{97}{}%
+\cftinsert {backmattertoc}
 \contentsline {chapter}{Appendices}{101}{}%
-\contentsline {chapter}{Appendices}{103}{}%
-\contentsline {chapter}{Apocalyptic Numbers}{103}{}%
-\contentsline {chapter}{Notes}{109}{}%
-\contentsline {chapter}{Scripture Index}{111}{}%
+\contentsline {section}{Apocalyptic Numbers}{103}{}%
+\contentsline {chapter}{Notes}{111}{}%
+\contentsline {chapter}{Scripture Index}{113}{}%

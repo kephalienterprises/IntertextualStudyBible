@@ -1,6 +1,7 @@
 \usepackage{ebgaramond}
 \usepackage[T1]{fontenc}
-\usepackage[raggedright]{titlesec, xcolor}
+\usepackage[raggedright]{titlesec}
+\usepackage[table]{xcolor}
 \usepackage[english]{babel}
 \usepackage{lettrine}
 \usepackage{graphicx}
@@ -17,6 +18,15 @@
 \usepackage{dblfnote}
 \usepackage{fancyhdr}
 \usepackage{tabularx, booktabs, ragged2e}
+
+%to get frontmatter and backmatter chapters to appear in italics in toc
+\renewcommand*{\cftchapterfont}{\itshape\bfseries}
+\cftinsertcode{mainmattertoc}{%
+    \renewcommand*{\cftchapterfont}{\normalsize\normalfont\bfseries}%
+}
+\cftinsertcode{backmattertoc}{%
+    \renewcommand*{\cftchapterfont}{\itshape\bfseries}%
+}
 
 %\usepackage{cuted} % this package provides the \strip macro which creates page-wide boxes
 %\usepackage{ftnright} % this package pushes all the footnotes to the right hand column but with as many footnotes as I have it isn't working well
@@ -222,11 +232,12 @@
 
 %HEADER RULE	
 \pagestyle{fancy}
-%\renewcommand{\headrulewidth}{1pt}
 \renewcommand\headrule{
 \begin{minipage}{1\textwidth}
 \hrule height 0.5pt width \textwidth
 \end{minipage}}%
+\fancyhead{} %clear formatting
+\fancyhead[RO, LE]{\thechapter} %for even pages, put the chapter title on left side; for odd pages, put on right
 
 %FOOTNOTE RULE
 \makeatletter
