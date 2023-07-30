@@ -3,29 +3,29 @@
 \contentsline {chapter}{Preface}{viii}{}%
 \cftinsert {mainmattertoc}
 \contentsline {chapter}{\chapternumberline {1}One Like a Son of Man}{1}{}%
-\contentsline {chapter}{\chapternumberline {2}Letters to Churches I}{5}{}%
-\contentsline {chapter}{\chapternumberline {3}Letters to Churches II}{9}{}%
-\contentsline {chapter}{\chapternumberline {4}The Enthroned One}{13}{}%
-\contentsline {chapter}{\chapternumberline {5}The Scroll and the Lamb}{15}{}%
-\contentsline {chapter}{\chapternumberline {6}The First Six Seals}{19}{}%
-\contentsline {chapter}{\chapternumberline {7}The Washed Multitude}{25}{}%
-\contentsline {chapter}{\chapternumberline {8}The Seventh Seal: Trumpets}{31}{}%
-\contentsline {chapter}{\chapternumberline {9}The Fifth and Sixth Trumpets}{35}{}%
-\contentsline {chapter}{\chapternumberline {10}The Angel and \linebreak [0] \mbox {the Little Scroll}}{39}{}%
-\contentsline {chapter}{\chapternumberline {11}The Two Witnesses and \linebreak [0] \mbox {the Seventh Trumpet}}{41}{}%
-\contentsline {chapter}{\chapternumberline {12}The Woman and the Dragon}{47}{}%
-\contentsline {chapter}{\chapternumberline {13}The Sea and Earth Beasts}{53}{}%
-\contentsline {chapter}{\chapternumberline {14}The Lamb on Mt. Zion}{56}{}%
-\contentsline {chapter}{\chapternumberline {15}The Song of Moses and of the Lamb}{60}{}%
-\contentsline {chapter}{\chapternumberline {16}The Bowls of Wrath}{62}{}%
-\contentsline {chapter}{\chapternumberline {17}The Doom of Babylon}{67}{}%
-\contentsline {chapter}{\chapternumberline {18}Fallen, Fallen is Babylon}{70}{}%
-\contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{76}{}%
-\contentsline {chapter}{\chapternumberline {20}The Millennium}{81}{}%
-\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{84}{}%
-\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{89}{}%
+\contentsline {chapter}{\chapternumberline {2}Letters to Churches I}{4}{}%
+\contentsline {chapter}{\chapternumberline {3}Letters to Churches II}{7}{}%
+\contentsline {chapter}{\chapternumberline {4}The Enthroned One}{11}{}%
+\contentsline {chapter}{\chapternumberline {5}The Scroll and the Lamb}{13}{}%
+\contentsline {chapter}{\chapternumberline {6}The First Six Seals}{17}{}%
+\contentsline {chapter}{\chapternumberline {7}The Washed Multitude}{23}{}%
+\contentsline {chapter}{\chapternumberline {8}The Seventh Seal: Trumpets}{29}{}%
+\contentsline {chapter}{\chapternumberline {9}The Fifth and Sixth Trumpets}{33}{}%
+\contentsline {chapter}{\chapternumberline {10}The Angel and \linebreak [0] \mbox {the Little Scroll}}{37}{}%
+\contentsline {chapter}{\chapternumberline {11}The Two Witnesses and \linebreak [0] \mbox {the Seventh Trumpet}}{39}{}%
+\contentsline {chapter}{\chapternumberline {12}The Woman and the Dragon}{43}{}%
+\contentsline {chapter}{\chapternumberline {13}The Sea and Earth Beasts}{49}{}%
+\contentsline {chapter}{\chapternumberline {14}The Lamb on Mt. Zion}{51}{}%
+\contentsline {chapter}{\chapternumberline {15}The Song of Moses and of the Lamb}{54}{}%
+\contentsline {chapter}{\chapternumberline {16}The Bowls of Wrath}{56}{}%
+\contentsline {chapter}{\chapternumberline {17}The Doom of Babylon}{61}{}%
+\contentsline {chapter}{\chapternumberline {18}Fallen, Fallen is Babylon}{63}{}%
+\contentsline {chapter}{\chapternumberline {19}The Marriage of the Lamb}{68}{}%
+\contentsline {chapter}{\chapternumberline {20}The Millennium}{73}{}%
+\contentsline {chapter}{\chapternumberline {21}The New Heaven and Earth}{76}{}%
+\contentsline {chapter}{\chapternumberline {22}The River and the Tree of Life}{79}{}%
 \cftinsert {backmattertoc}
-\contentsline {chapter}{Appendices}{93}{}%
-\contentsline {section}{Apocalyptic Numbers}{94}{}%
-\contentsline {chapter}{Notes}{102}{}%
-\contentsline {chapter}{Scripture Index}{107}{}%
+\contentsline {chapter}{Appendices}{83}{}%
+\contentsline {section}{Apocalyptic Numbers}{84}{}%
+\contentsline {chapter}{Notes}{90}{}%
+\contentsline {chapter}{Scripture Index}{95}{}%
